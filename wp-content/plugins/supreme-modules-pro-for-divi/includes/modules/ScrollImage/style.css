@@ -1,0 +1,106 @@
+.dsm_scroll_image {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    line-height: 0;
+}
+
+.dsm-scroll-image-wrapper {
+    position: relative;
+    height: 320px;
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+    -webkit-transition: 300ms all cubic-bezier(.4, 0, .2, 1);
+    transition: 300ms all cubic-bezier(.4, 0, .2, 1);
+}
+
+
+.dsm_scroll_image .et_pb_image_wrap {
+    width: 100%;
+}
+
+.dsm_scroll_image a,
+.dsm_scroll_image .et_pb_image_wrap,
+.dsm_scroll_image img {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 0;
+    transition: all 10s;
+    -webkit-transition: all 10s;
+}
+
+.dsm_scroll_image .et_overlay {
+    border-width: 0;
+}
+
+.dsm-scroll-image-icon-empty.et_overlay:before {
+    display: none;
+}
+
+.dsm_scroll_image .dsm-scroll-image-overlay-off .et_overlay {
+    opacity: 1;
+    z-index: 3;
+}
+
+.dsm_scroll_image:hover .dsm-scroll-image-overlay-off .et_overlay {
+    opacity: 0;
+}
+
+.dsm_scroll_image .dsm-scroll-direction-vertical img {
+    transform: translateY(0);
+    width: 100%;
+    max-width: 100%;
+}
+
+.dsm_scroll_image:hover .dsm-scroll-direction-vertical img {
+    transform: translateY(-100%);
+    margin-top: 320px;
+}
+
+.dsm_scroll_image .dsm-scroll-direction-vertical.dsm-scroll-reverse-direction img {
+    transform: translateY(-100%);
+    margin-top: 320px;
+}
+
+.dsm_scroll_image:hover .dsm-scroll-direction-vertical.dsm-scroll-reverse-direction img {
+    transform: translateY(0);
+    margin-top: initial;
+}
+
+.dsm_scroll_image .dsm-scroll-direction-horizontal .et_pb_image_wrap {
+    height: 100%;
+}
+
+.dsm_scroll_image .dsm-scroll-direction-horizontal img {
+    max-width: none;
+    transform: translateX(0);
+}
+
+.dsm_scroll_image:hover .dsm-scroll-direction-horizontal img {
+    transform: translateX(-100%);
+}
+
+.dsm_scroll_image .dsm-scroll-direction-horizontal.dsm-scroll-reverse-direction img {
+    transform: translateX(0);
+    margin-right: 320px;
+}
+
+.dsm_scroll_image:hover .dsm-scroll-direction-horizontal.dsm-scroll-reverse-direction img {
+    transform: translateX(0);
+    margin-right: initial;
+}
+
+.dsm-lightbox-custom {
+    max-width: 100% !important;
+}
+
+.dsm-lightbox-custom.mfp-iframe-holder .mfp-close,
+.dsm-lightbox-custom.mfp-image-holder .mfp-close {
+    color: rgba(255, 255, 255, 0.2);
+    opacity: 1;
+    transition: all .4s ease-in-out;
+}

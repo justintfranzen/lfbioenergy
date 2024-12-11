@@ -1,0 +1,7 @@
+.dsm_facebook_like_button .fb_iframe_widget iframe {
+    position: relative;
+}
+
+.dsm_facebook_like_button .fb_iframe_widget, .dsm_facebook_like_button .fb_iframe_widget span, .dsm_facebook_like_button .fb_iframe_widget span iframe[style] {
+    width: 100% !important;
+}

@@ -1,0 +1,18 @@
+.dsm-text-path-container.dsm-rtl text {
+  direction: rtl;
+}
+
+.dsm-text-path-container svg text {
+  direction: ltr;
+}
+
+.dsm-text-path-container svg path {
+  fill: transparent;
+  stroke: transparent;
+}
+
+.dsm-text-path-container svg {
+  max-width: 100%;
+  height: auto;
+  overflow: visible;
+}

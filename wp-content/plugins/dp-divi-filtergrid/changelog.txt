@@ -1,0 +1,799 @@
+version 3.1.1 ( 11-11-2024 )
+
+    - Added filter hooks dpdfg_ajax_get_posts_data and dpdfg_get_items_html
+
+    - Moved Hide All Filter Button toggle and All Text field from Filters Options section to Taxonomy Filters section
+
+    - Added Hide All Filter Button toggles to month and year filters
+
+    - Added ability to use term slug with active filter
+
+version 3.1 ( 10-28-2024 )
+
+    - Added support for latest version of Search and Filter Pro 3.x
+
+    - Added dynamic content support for no results text, read more button and click action button
+
+    - Fixed Search Position hidden when Show Taxonomy Filters toggle turned off
+
+    - Fixed broken lightbox data for versions of Divi 4.27.2 and higher
+
+version 3.0.9
+
+    - No updates. Previous version 3.0.8 mistakenly released as 3.0.9
+
+version 3.0.8 ( 9-23-2024 )
+
+    - Added date filters
+
+    - Moved taxonomy filter options and general filter options to their own sections
+
+    - Fixed broken Select Terms field when a selected term no longer exists
+
+version 3.0.7 ( 8-19-2024 )
+
+    - Improved security by sanitizing URL parameters used for active filter or URL navigation
+
+    - Fix for Extra theme dequeuing required scripts for Grid Masonry layout to display properly
+
+version 3.0.6.1 ( 7-24-2024 )
+
+    - Fixed fatal PHP error when Divi Theme or Divi Builder plugin deactivated while Divi FilterGrid active
+
+version 3.0.6 ( 7-22-2024 )
+
+    - Added ability to sort by custom fields using custom sort filter "dpdfg_custom_sorting_html" - https://diviplugins.com/documentation/divi-filtergrid/custom-sort/
+
+    - Added ability to display image data in lightbox when lightbox images populated with image attachments
+
+    - Fixed broken Custom Fields interface when custom field name is NULL
+
+    - Fixed child filters not resetting when parent filter option changed in hierarchical filters
+
+    - Improved AJAX WooCommerce add to cart success/fail message
+
+version 3.0.5 ( 4-4-2024 )
+
+    - Added event listener dfg_trigger_ajax
+
+    - Save module custom json data to new "data-json" attribute when event listener used
+
+    - Fixed custom fields not rendering in VB when preset used
+
+version 3.0.4 ( 2-21-2024 )
+
+    - Added ability to change featured image alt tag source
+
+    - Added new "Show secondary view in popup" click action
+
+    - Added filter hook to allow for custom sort dropdown
+
+version 3.0.3 ( 1-24-2024 )
+
+    - Converted all module custom popup fields in page builder to custom React fields for improved compatibility with the upcoming Divi 5 release
+
+    - Fixed broken pagination with latest version of Search & Filter Pro
+
+    - Fixed sort dropdown not working when filters turned off
+
+    - Fixed Clear Filters button not auto closing the child dropdowns when Use Parent Child Levels toggle turned on
+
+    - Fixed PHP 8.2 deprecation warnings
+
+version 3.0.2 ( 11-30-2023 )
+
+    - Removed click event block when Click Action is set to none which was preventing clicks on post content
+
+    - Modified Sort section interface and added ability to change the order of the sort dropdown options
+
+    - Added default text for all sort options
+
+    - Added option to disable Auto Scroll to Top action after pagination has finished loading new items
+
+version 3.0.1 ( 11-14-2023 )
+
+    - Fixed javascript error caused by empty grid
+
+    - Added Default sort option and Default Text field
+
+version 3.0 ( 11-2-2023 )
+
+    - Added URL navigation filtering, search, sort and pagination
+
+    - Added new skins (Flip Card, Slide Card, None - Split Content)
+
+    - Added ability to set the order of elements
+
+    - Added ability to change default loader
+
+    - Added lightbox custom data filter hook
+
+    - Added ability to show no results on initial page load
+
+    - Moved filter and search placement to new Container Layout option
+
+    - Moved element background colors to Design tab
+
+    - Fixed broken sort dropdown when query type set to custom query
+
+version 2.9.6 ( 9-1-2023 )
+
+    - Added new Sort section in Content tab to enable front end sorting of the grid items
+
+    - Added new Filter Child Terms toggle to Filters section
+
+    - Fixed javascript error related to empty props variable breaking masonry layout
+
+version 2.9.5 ( 7-17-2023 )
+
+    - Added support for video preview of Gutenberg video blocks
+
+    - Added multilevel hierarchical taxonomy field to WPML translation
+
+    - Fixed Filters Order By Hierarchy not displaying correctly
+
+    - Fixed broken standard masonry layout when all items in grid are videos
+
+    - Fixed missing trailing forward slash in pagination next page URL
+
+    - Fixed trigger filter after last level selected not working for dropdowns
+
+    - Fixed admin module selection popups on RTL languages
+
+    - Fixed admin CSS and Javascript not working in Extra theme and preventing module selection popups from displaying
+
+version 2.9.4.3 ( 6-1-2023 )
+
+    - Fixed missing trailing slash at end of page 2 in load more button and load more on scroll URL
+
+version 2.9.4.2 ( 5-26-2023 )
+
+    - Fixed trigger filters "After last level is selected" broken when filter layout is set to dropdown
+
+version 2.9.4.1 ( 5-19-2023 )
+
+    - Fixed Clear Filters button not working when multiple levels of filters added
+
+version 2.9.4 ( 5-18-2023 )
+
+    - Added Clear Filters button to allow users to reset all currently selected filters
+
+    - Added Popup Link Target to Popup section in Design tab to control how links inside the popup window are opened
+
+version 2.9.3 ( 5-11-2023 )
+
+    - Added ability to use term IDs when Filters Order By dropdown is set to Custom Order
+
+    - Fixed undefined function error related to global colors in versions of Divi 4.9.0 or earlier
+
+version 2.9.2 ( 4-21-2023 )
+
+    - Added lightbox options to display image title, caption and description
+
+    - Added basic ACF support for Custom URL option
+
+    - Position of each item in the query index now available within some filters via $props['position']
+
+    - Fixed global color selection issues on color-alpha fields
+
+version 2.9.1 ( 3-1-2023 )
+
+    - Added ability to customize dropdown labels when Use Parent/Child Levels toggle is turned on
+
+    - Added new js events "dfg_masonry_ready" and "dfg_no_results"
+
+version 2.9.0.1 ( 9-30-2022 )
+
+    - Added workaround for a bug introduced by The Events Calendar Pro version 6.0.1
+
+version 2.9 ( 9-7-2022 )
+
+    - Added 3rd Party Integration query type to add support for Search and Filter Pro plugin
+
+    - Added search support for Relevanssi plugin
+
+    - Active Filter feature now works on child terms when Use Parent/Child Levels toggle turned on
+
+version 2.8.8 ( 8-10-2022 )
+
+    - Improved support for displaying post content when Show Full Content option on
+
+    - Added new data attribute to return total number of posts found by filtering or searching
+
+version 2.8.7 ( 8-1-2022 )
+
+    - Validating the terms selected in module exist
+
+    - Removed AJAX nonce from frontend
+
+    - Allow Default Filter option when Use Custom Filters toggle turned on
+
+version 2.8.6 ( 6-7-2022 )
+
+    - Set value of search input to search term when used on search results page
+
+    - Added Update URI to plugin metadata to avoid conflicts with Elegant Themes marketplace
+
+    - "Items in Overlay" skin now applies to all layouts except list and fullwidth
+
+    - Fixed PHP error when custom url field name empty
+
+    - Fixed overlay icon left aligned in Visual Builder
+
+version 2.8.5 ( 3-16-2022 )
+
+    - Added support for ACF taxonomy field type
+
+    - Added overlay Icon Size setting and moved overlay design options to Design tab
+
+    - Fixed Show Featured Image toggle not working correctly when Display Video Preview toggle turned on
+
+version 2.8.4 ( 2-1-2022 )
+
+    - Fixed button alignment not working unless Use Custom Styles ... toggle turned on
+
+    - Added support for all return formats for ACF gallery field when using field for custom lightbox gallery
+
+version 2.8.3 ( 1-21-2022 )
+
+    - Fixed meta separator character removed from AJAX results
+
+version 2.8.2 ( 1-18-2022 )
+
+    - Fixed incorrect results in some instances when using a combination of search and filters
+
+version 2.8.1 ( 1-4-2022 )
+
+    - Fixed PHP divide by zero error when using Flex layout and Items Width value is set to above 50%
+
+version 2.8 ( 12-16-2021 )
+
+    - Added ability to change meta separator character
+
+    - Filter dropdown no longer auto closes after selecting a filter if both MultiSelect and trigger filter button enabled
+
+    - Improved global assets support
+
+version 2.7.9 ( 11-11-2021 )
+
+    - Fixed PHP error related to new icons affecting older versions of Divi
+
+version 2.7.8 ( 11-11-2021 )
+
+    - Added compatibility with Divi 4.13 expanded icon library
+
+    - Fixed duplicated active filter tag in dropdown when clicking on Filter trigger button
+
+version 2.7.7 ( 10-30-2021 )
+
+    - Fixed broken '/undefined' URL when featured image missing
+
+    - Fixed missing ellipses at the end of post excerpt when last character in truncated content was an empty space
+
+version 2.7.6 ( 10-22-2021 )
+
+    - Added Filter Trigger button
+
+    - Added option to override default Click Action when Display Video Previews option enabled
+
+    - Fixed broken URL when Display Video Previews option turned on and external video added
+
+version 2.7.5 ( 10-8-2021 )
+
+    - Improved function that retrieves featured image thumbnail to support soft cropped thumbnails
+
+    - Added licensing page back to sub site admin dashboard in multisite installations
+
+    - Fixed duplicate filter levels when multiple post types displayed and taxonomies not displayed in the order they're registered
+
+    - Fixed excerpt ellipses missing when last character of truncated word ends in a space
+
+version 2.7.4 ( 9-17-2021 )
+
+    - Fixed broken pagination when Posts Number value was less than total posts in term added to Default Filter (if set)
+
+version 2.7.3 ( 9-9-2021 )
+
+    - Fixed broken filters in some instances when active filter set in URL
+
+    - Fixed missing video thumbnail in Safari when Display Video Previews option turned on
+
+version 2.7.2 ( 8-26-2021 )
+
+    - Fixed incorrect results when pagination turned off and more than three levels of filters added
+
+    - Fixed missing filters when using custom filter order and special HTML characters in filter name
+
+version 2.7.1 ( 8-19-2021 )
+
+    - Added compatibility for Divi 4.10 Performance Update
+
+    - Fixed large default custom field font size
+
+version 2.7 ( 8-13-2021 )
+
+    - Added compatibility for plugin extensions
+
+    - Added Flex layout option
+
+    - Added Standard Masonry layout option based on Desandro library
+
+    - Added ability to accept multiple term IDs in Active Filter link
+
+    - Fixed Grid Font Size not applying to post meta
+
+version 2.6.5 ( 7-22-2021 )
+
+    - Added custom field name as class name to each custom field
+
+    - Fixed current page CSS from applying to item content when Show Content -> Show Full Content option turned on
+
+    - Fixed missing forward slash in pagination URL on some servers
+
+version 2.6.4 ( 4-21-2021 )
+
+    - Added Related Posts query type
+
+    - Fixed module CSS getting applied to popup container
+
+version 2.6.3 ( 4-16-2021 )
+
+    - Added Click Action button
+
+    - Fixed broken video popup
+
+version 2.6.2 ( 4-3-2021 )
+
+    - Fixed missing first page (if enabled) and previous page icons in pagination
+
+version 2.6.1 ( 4-2-2021 )
+
+    - Fixed broken Items in Overlay skin
+
+version 2.6 ( 3-31-2021 )
+
+    - Added Popup Options section to module's Design tab with ability to select a popup template from library
+
+    - Added hidden links to pagination when Load more on scroll pagination selected for improved SEO
+
+    - Added a trigger to search box. When a search is performed and the text is deleted or backspaced, the results will auto update.
+
+    - Added Thumbnail Image filters to Design tab
+
+    - Fixed broken overlay when module added to a single custom post type
+
+    - Fixed left and right pagination icons missing in certain cases
+
+version 2.5.8 ( 2-23-2021 )
+
+    - Fixed Order By custom field bug which removed the custom field name field from the module
+
+    - Fixed W3C validation error related to read more button inline styles
+
+version 2.5.7 ( 2-19-2021 )
+
+    - Added click action filter to allow for independent click actions for each item in the grid
+
+    - Added Order Search Results by Relevance toggle to Search Options (on by default)
+
+    - Added Search Relevance to Order By option in Query Options
+
+    - Module's data-active-filter attribute now updates even when AJAX does not fire
+
+version 2.5.6 ( 2-15-2021 )
+
+    - Added taxonomy class to meta term links
+
+    - Fixed broken filters, search and pagination in IE
+
+version 2.5.5 ( 2-1-2021 )
+
+    - Added Custom URL link target option
+
+    - Added option to use videos added via video module in post content for video preview
+
+    - Ignore Sticky Posts option now available in all query types except Custom
+
+    - Fixed js undefined function error thrown when AJAX function completes in newer versions of jQuery
+
+version 2.5.4 ( 1-15-2021 )
+
+    - Added option to only display posts from author of current post/page
+
+    - Fixed post title not rendering HTML
+
+    - Fixed javascript error when no results found
+
+version 2.5.3 ( 1-8-2021 )
+
+    - Fixed render error in VB when Posts Number value set to -1 to display all posts
+
+    - Fixed Row Gutter setting in Design tab applying to element with class dp-dfg-item when List layout active. Now applies to element with dp-dfg-items class
+
+    - Fixed large icons on custom post type archive pages and when using Divi Builder plugin
+
+    - Added font settings and Custom CSS boxes for custom fields
+
+    - Added default font size and line height for custom fields label and value
+
+    - Improved support for Advanced Custom Fields output for array values and HTML fields (image, URL, email)
+
+version 2.5.2 ( 12-31-2020 )
+
+    - Fixed missing search icon
+
+version 2.5.1 ( 12-30-2020 )
+
+    - Added option to sort filters by hierarchy
+
+    - Added option to sort posts by post__id
+
+    - Fixed custom placeholder text missing from dropdown filters
+
+    - Fixed deselecting active filter not activating All filter
+
+    - Fixed broken filter layout when Left Vertical Filters skin and Use Parent/Child Levels active
+
+version 2.5 ( 12-16-2020 )
+
+    - Added Parent/Child Taxonomy option when Use MultiLevel Filters option is turned on
+
+    - Added dynamic content to Include Posts by IDs option
+
+    - Fixed inability to select and set a term in the Default Filter popup
+
+version 2.4.4 ( 12-10-2020 )
+
+    - New query option to include posts by post ID(s) will now work on pages and custom post types and is no longer limited to posts
+
+    - Popup template will now work on pages and is no longer limited to posts and custom post types
+
+version 2.4.3 ( 12-7-2020 )
+
+    - Added filter to remove meta terms by term ID
+
+    - Added new option to remove term link from meta terms
+
+version 2.4.2 ( 12-2-2020 )
+
+    - Added span to meta term separator for easier targeting
+
+    - Added new option to replace or remove meta term separator
+
+    - Disabled ability to select multiple terms for Default Filter option
+
+    - CSS in module's Advanced tab -> Custom CSS -> Post Title Container section no longer applies to .dp-dfg-header a
+
+version 2.4.1 ( 11-25-2020 )
+
+    - Fixed broken pagination when both Hide All Button and Cache Filter & Pagination Results options turned on
+
+    - Fixed posts displaying more than once when Order By option set to random and pagination turned on
+
+    - Fixed lightbox gallery displaying featured images from posts not visible in the grid when AJAX not triggered
+
+    - Added new query option to include posts by post ID(s)
+
+    - Removed placeholder text if there is a default filter for dropdown filters layout
+
+    - Fixed default ALL text and custom ALL text getting combined
+
+    - Forced disable of video preview support when Items in Overlay or Zoom Image skin selected
+
+version 2.4 ( 11-14-2020 )
+
+    - Added Video Options: video preview, click action and overlay settings
+
+    - Added ability to auto update
+
+    - Added option to remove overlay icon
+
+    - Fixed position data attribute when load more pagination options selected
+
+    - Fixed default filter term not showing as active term when dropdown filter layout selected
+
+version 2.3.1 ( 10-28-2020 )
+
+    - Fixed images from becoming distorted while scrolling on mobile phones when both Masonry layout and Items in Overlay skin selected
+
+    - Custom fields now queried only inside the custom field popup window when editing a page
+
+    - Added position data attribute to grid items for reliable targeting with CSS and Javascript
+
+    - Changed doing-ajax data attribute to data-doing-ajax
+
+version 2.3 ( 10-10-2020 )
+
+    - Added option to display full content
+
+    - Added option to choose whether or not to remove HTML from excerpt
+
+    - Added option to truncate manually added excerpts
+
+    - Added SEO-friendly URLs to Load More pagination button
+
+    - Added term slug as class in filters and meta output
+
+    - Fixed Post Title font settings in Design tab not applying when Add Link to Title option turned on and Divi Color Scheme used
+
+    - Improved the function used to truncate the post content and create the excerpt
+
+version 2.2.1 ( 8-26-2020 )
+
+    - Fixed broken filters, pagination, and click actions in Divi 4.6
+
+    - Added wpml-config.xml file for improved translation using the WPML Translation Management interface
+
+version 2.2 ( 7-21-2020 )
+
+    - Added dropdown layout for filters
+
+    - Added option to remove custom content wrapper from custom fields output
+
+    - Added new filter "dpdfg_module_custom_data" which allows data to be added to the $props variable when module first loads
+
+    - Added SEO-friendly URLs to pagination
+
+    - Removed delay between lightbox overlay and content when lightbox closed
+
+    - Fixed pagination showing empty pages after search
+
+version 2.1.1 ( 6-1-2020 )
+
+    - Added ability to define All text for each level when MultiLevel option turned on
+
+    - Improved Masonry layout when Items in Overlay skin selected
+
+    - Term hierarchy now visible when making selection in module settings
+
+    - Added ability to choose empty terms in module settings
+
+    - Added post count to terms in module settings
+
+    - Fixed Custom CSS not applying correctly to filters and pagination
+
+version 2.1 ( 5-21-2020 )
+
+    - Added search option
+
+    - Added Archive Page query type for better support with archive, category, author and search pages
+
+    - Added Menu Order to Filters Order By option
+
+    - Fixed button icon issue when editing from the Visual Builder
+
+version 2.0.2 ( 5-12-2020 )
+
+    - Fixed Masonry layout showing empty grid in Visual Builder
+
+    - Fixed grid switching to two-column layout on mobile once "no results" message displayed
+
+    - Fixed filter and pagination background options not applying
+
+version 2.0.1 ( 5-6-2020 )
+
+    - Added masonry layout
+
+    - Fixed images vertically spanning entire height of grid when left vertical filters skin used
+
+    - Improved Internet Explorer support for left vertical filters skin
+
+    - Fixed default min and max values not getting added in list layout
+
+    - Improved license page
+
+version 2.0 ( 4-23-2020 )
+
+    - Added multi-level filter support
+
+    - Added multi-select filter support
+
+    - Improved Internet Explorer support for list layout
+
+    - Moved image filter outside of has_post_thumbnail() function to allow for custom image or code if no featured image exists
+
+    - Fixed pagination icon button size not matching page number button size when grid font size increased
+
+    - Added back ability to insert HTML to Empty Results Text input
+
+    - Fixed broken styles and popup when using Divi Builder Plugin
+
+version 1.3.7 ( 4-11-2020 )
+
+    - Fixed AJAX request failing when using Divi Builder plugin instead of Divi theme
+
+    - Fixed license activation UI
+
+    - Added validation to custom field popup window to prevent React error when no custom field is selected
+
+version 1.3.6 ( 4-8-2020 )
+
+    - Popup content can now show either theme builder template content or post content. Please see the popup template documentation for more information - https://diviplugins.com/documentation/divi-filtergrid/popup-template/
+
+    - Fixed PHP error when logged into WordPress as non-admin user
+
+version 1.3.5 ( 4-6-2020 )
+
+    - Fixed issue with load more button and scroll pagination
+
+version 1.3.4 ( 4-5-2020 )
+
+    - Fixed issue with filters and pagination not working properly in IE
+
+    - Improved loader position. Loader will display below filters when filters clicked and above pagination when pagination clicked
+
+    - Improved security, sanitizing data entered in module inputs in module settings
+
+version 1.3.3 ( 2-11-2020 )
+
+    - Fixed issue preventing custom fields from displaying
+
+    - Improved custom field output if custom field created using Advanced Custom Fields plugin
+
+version 1.3.2 ( 1-27-2020 )
+
+    - Fixed custom content links not opening the URL when the link contained HTML elements
+
+version 1.3.1 ( 1-22-2020 )
+
+    - Fixed stylesheet loading with scripts instead of inside head
+
+    - Fixed transparent background on custom fields popup dropdown
+
+version 1.3 ( 1-16-2020 )
+
+    - Added filters for each element in the grid item
+
+    - Added Custom Filters filter to allow for dynamic filters on archive pages
+
+    - Added option to remove custom content wrapper in module settings
+
+    - Optimized Default Filter option
+
+    - Optimized enqueue functions. Stylesheet and Javascript files now load on pages that contain the module only
+
+version 1.2.3 ( 1-9-2020 )
+
+    - Fixed PHP parse error in older versions of PHP
+
+version 1.2.2 ( 1-9-2020 )
+
+    - Click action options now available when image and overlay off. Action applies to grid item.
+
+    - Fixed Show Terms Taxonomy not displaying custom taxonomies
+
+    - Fixed lightbox gallery displaying incorrect post title in lightbox window for posts with same featured image
+
+    - Fixed page scrolling to module after loading when Default Filter option used
+
+version 1.2.1 ( 12-13-2019 )
+
+    - Added terms relation option
+
+    - Fixed layout jumping when filter clicked
+
+version 1.2 ( 12-5-2019 )
+
+    - Added ability to change featured image thumbnail size from within the module's settings
+
+    - Added option to order results by custom field
+
+    - Added taxonomy selector to Show Terms option
+
+    - Added the current page/post ID to the module $props, accessible via $props['the_ID']
+
+    - Added option to hide All filter
+
+    - Added Remove Current Post option
+
+    - Improved Items in Overlay skin
+
+    - Fixed Ajax load more and scroll pagination issue when custom query has different post_per_page value than the default value (12)
+
+    - Fixed javascript error preventing custom field popup from displaying properly in Theme Builder
+
+    - Fixed No Results container getting duplicated
+
+version 1.1 ( 10-1-2019 )
+
+    - Added filter and pagination caching
+
+    - Added first and last page options for pagination
+
+    - Changed default prev/next icons from double to single arrows so first and last page icons could have double arrows
+
+    - Added option to change default text of all filter
+
+    - Now removing HTML tags from truncated excerpts to prevent breaking the grid layout
+
+    - Fixed duplicate posts when using Load More on Scroll option
+
+    - Fixed No Results message displaying when results are available
+
+    - Fixed unpublished posts from displaying in the results
+
+    - Fixed text domain not loading properly and preventing translations
+
+version 1.0.14 ( 8-29-2019 )
+
+    - Fixed empty filter results when query taxonomy and filter taxonomy were not the same
+
+version 1.0.13 ( 7-8-2019 )
+
+- Added custom lightbox option. Lightbox gallery can now load images from a custom field or filter.
+
+version 1.0.12 ( 5-28-2019 )
+
+    - Added ability to replace the default AJAX loader with a custom loader using the dpdfg_custom_loader filter
+
+    - Fixed unknown img src on AJAX requests when post does not have featured image
+
+    - Fixed comma from displaying after single term in Visual Builder
+
+version 1.0.11 ( 5-2-2019 )
+
+    - Fixed empty href in overlay when featured image missing or turned off
+
+version 1.0.10 ( 4-15-2019 )
+
+    - Custom Content filter now renders properly in live preview
+
+version 1.0.9 ( 3-22-2019 )
+
+    - Added Flexbox fallback for default grid for older browsers that do not support CSS Grid
+
+version 1.0.8 ( 3-5-2019 )
+
+    - Fixed conflict with WPML and post type, category, and tag popups not displaying when editing modules
+
+version 1.0.7 ( 2-6-2019 )
+
+    - Added ability to add custom fields directly from module's settings
+
+    - Improved appearance of overlay when skin is changed from default
+
+    - Improved Advanced Query option taxonomy relation when exclude taxonomies used
+
+    - Fixed issue with default filter and pagination
+
+version 1.0.6 ( 1-14-2019 )
+
+    - Added five new skins
+
+version 1.0.5 ( 12-21-2018 )
+
+    - Added active filter by URL
+
+    - Added option to limit pagination buttons
+
+    - Added custom URL option
+
+    - Added title link option
+
+    - Improved overlay click action
+
+version 1.0.4 ( 12-18-2018 )
+
+    - Fixed escaped characters in custom content output when items rendered using AJAX
+
+version 1.0.3 ( 12-17-2018 )
+
+    - Fixed broken query when default filter set
+
+    - Fixed pagination showing next link on last page when custom query filter used
+
+version 1.0.2 ( 12-8-2018 )
+
+    - Fixed broken filters and pagination when custom query filter used
+
+version 1.0.1 ( 11-28-2018 )
+
+    - Open in new tab now applied to image and read more button
+
+    - Added background color options for filters and pagination
+
+    - Added option to create unique custom query based on module ID, Class, or Label
+
+version 1.0 ( 11-21-2018 )
+
+    - Initial release

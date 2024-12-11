@@ -1,0 +1,7 @@
+.dsm-text-notation-main>span {
+    border-style: solid;
+    border-color: #333333;
+    display: inline-block;
+    vertical-align: middle;
+    white-space: pre-wrap;
+}

@@ -1,0 +1,56 @@
+.dsm_breadcrumbs {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0;
+}
+
+#left-area ul.dsm_breadcrumbs,
+.entry-content ul.dsm_breadcrumbs,
+.et-l--header ul.dsm_breadcrumbs,
+.et-l--body ul.dsm_breadcrumbs,
+.et-l--footer ul.dsm_breadcrumbs,
+.comment-content ul.dsm_breadcrumbs,
+body.et-pb-preview #main-content .container ul.dsm_breadcrumbs {
+    padding: 0;
+    list-style-type: none;
+}
+
+.dsm_breadcrumbs a,
+.dsm_breadcrumbs strong {
+    display: inline-block;
+}
+
+.dsm_breadcrumbs .dsm_home_text_wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.dsm_breadcrumbs>li {
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    border-style: solid;
+}
+
+.dsm_breadcrumbs>li:first-child {
+    margin-left: 0;
+
+}
+
+.dsm_home_item .dsm_home_icon,
+.et-db #et-boc .et-l .dsm_home_icon {
+    font-size: 18px;
+    font-weight: 700;
+    margin-right: 5px;
+}
+
+.dsm_breadcrumbs_separator {
+    width: auto;
+}
+
+.dsm_breadcrumbs_separator .dsm_separator_icon,
+.et-db #et-boc .et-l .dsm_separator_icon {
+    font-size: 18px;
+    font-weight: 700;
+}

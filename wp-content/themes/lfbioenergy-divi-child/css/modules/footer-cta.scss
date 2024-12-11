@@ -1,0 +1,32 @@
+.et_pb_section {
+  &.footer-cta {
+    padding-top: 0;
+    background: #f8f8f8;
+
+    &::before {
+      content: '';
+      background-image: url('/wp-content/themes/lfbioenergy-divi-child/assets/img/grey-wave.png');
+      background-size: 100% 100%;
+      position: absolute;
+      width: 100%;
+      background-repeat: no-repeat;
+      z-index: 2;
+      background-position: center;
+      height: 65vh;
+    }
+
+    .et_pb_row {
+      display: flex;
+      align-items: center;
+      position: relative;
+      top: 8em;
+
+      p {
+        color: #fff;
+        font-size: 22px;
+        font-weight: 200;
+        line-height: 1.2;
+      }
+    }
+  }
+}

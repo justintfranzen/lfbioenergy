@@ -1,0 +1,34 @@
+.dsm_random_image {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    line-height: 0;
+}
+
+.dsm_random_image .et_pb_image_wrap {
+    display: inline-block;
+    position: relative;
+    max-width: 100%;
+}
+
+.dsm_random_image .et_overlay {
+    border-width: 0;
+}
+
+.dsm_random_image .et_pb_has_overlay.dsm_random_image_overlay_off .et_overlay {
+    z-index: 0;
+    opacity: 1;
+}
+
+.dsm_random_image .et_pb_has_overlay.dsm_random_image_overlay_off:hover .et_overlay {
+    opacity: 0;
+}
+
+.dsm-image-lightbox .dsm-image-lightbox {
+    display: block;
+    position: relative;
+}
+
+.dsm_random_image .dsm_random_image_svg.et_pb_image_wrap {
+    display: block;
+}

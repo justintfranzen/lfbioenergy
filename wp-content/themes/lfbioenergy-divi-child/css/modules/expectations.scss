@@ -1,0 +1,48 @@
+.et_pb_section {
+  &.green-wave {
+    height: 85vh;
+    background: linear-gradient(to bottom, #ededeb 50%, #f8f8f8 50%);
+
+    &::before {
+      content: '';
+      background-image: url('/wp-content/themes/lfbioenergy-divi-child/assets/img/green-wave.png');
+      height: 90vh;
+      background-size: 100% 100%;
+      position: absolute;
+      background-repeat: no-repeat;
+      z-index: 2;
+      background-position: center;
+    }
+
+    h2 {
+      color: #e1e2da;
+      font-weight: 200;
+    }
+
+    .et_pb_blurb {
+      background: #3b804d;
+      padding: 1.5em;
+
+      .et_pb_module_header {
+        font-family: Poppins, helvetica, arial, lucida, sans-serif;
+        font-size: 200px;
+        color: #c7da74;
+        font-weight: 200;
+      }
+
+      .sub-title {
+        font-size: 24px;
+        font-family: Poppins, helvetica, arial, lucida, sans-serif;
+        color: #c7da74;
+        font-weight: 900;
+      }
+
+      p {
+        color: #fff;
+        font-size: 22px;
+        font-weight: 200;
+        line-height: 1.2;
+      }
+    }
+  }
+}

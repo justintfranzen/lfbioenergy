@@ -1,0 +1,35 @@
+.dsm-rotate-word {
+    visibility: hidden;
+    opacity: 0;
+    display: none;
+}
+
+.dsm-rotate-text>.animated {
+    display: inline-block;
+    visibility: visible;
+}
+
+.dsm-rotate-text-main {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+    -webkit-transform: translate(0, 0);
+    -ms-transform: translate(0, 0);
+    transform: translate(0, 0);
+    line-height: 1em;
+
+}
+
+.dsm-rotate-text-main>.dsm-rotate-text-before,
+.dsm-rotate-text-main>.dsm-rotate-text,
+.dsm-rotate-text-main>.dsm-rotate-text-after {
+    border-style: solid;
+    border-color: #333;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+    vertical-align: middle;
+    white-space: pre-wrap;
+    line-height: 1em;
+}

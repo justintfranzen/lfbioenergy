@@ -1,0 +1,9 @@
+# node_modules are ignored by default
+/vendor
+/build
+/coverage
+/dist
+/storybook-static
+/**/*.min.js
+/**/*.dist.js
+**/dist/*

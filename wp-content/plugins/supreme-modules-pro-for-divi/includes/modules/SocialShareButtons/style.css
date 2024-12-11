@@ -1,0 +1,462 @@
+.dsm-social-share-buttons-container .dsm-social-share-button-inner-wrapper {
+  cursor: pointer;
+  word-spacing: initial;
+  -webkit-transition-duration: .2s;
+  transition-duration: .2s;
+  -webkit-transition-property: all;
+  transition-property: all;
+}
+.dsm_custom_image_icon {
+  max-width: 18px;
+}
+.dsm-social-share-buttons-container.dsm-gradient .dsm-social-share-button-inner-wrapper,
+.dsm-social-share-buttons-container.dsm-flat .dsm-social-share-button-inner-wrapper {
+  color: #fff;
+}
+
+.dsm-social-share-buttons-container.dsm-minimal .dsm-social-share-button-inner-wrapper .dsm-social-share-button-icon,
+.dsm-social-share-buttons-container.dsm-boxed_icon .dsm-social-share-button-inner-wrapper .dsm-social-share-button-icon {
+  color: #fff;
+}
+
+.dsm-social-share-buttons-container.dsm-minimal .dsm-social-share-button-inner-wrapper .dsm-social-share-button-text,
+.dsm-social-share-buttons-container.dsm-boxed_icon .dsm-social-share-button-inner-wrapper .dsm-social-share-button-text {
+  color: #000000;
+}
+
+.dsm-social-share-buttons-container .dsm-social-button-wrapper .dsm-social-share-button-icon {
+  line-height: 1;
+}
+
+/******when a user select gradient skin  & flat skin ********/
+
+.dsm-social-share-buttons-container.dsm-gradient .dsm-facebook,
+.dsm-social-share-buttons-container.dsm-flat .dsm-facebook {
+  background: #3b5998;
+}
+
+.dsm-social-share-buttons-container.dsm-gradient .dsm-twitter,
+.dsm-social-share-buttons-container.dsm-flat .dsm-twitter {
+  background: #1da1f2;
+}
+
+.dsm-social-share-buttons-container.dsm-gradient .dsm-linkedin,
+.dsm-social-share-buttons-container.dsm-flat .dsm-linkedin {
+  background: #0077b5;
+}
+
+.dsm-social-share-buttons-container.dsm-gradient .dsm-pinterest,
+.dsm-social-share-buttons-container.dsm-flat .dsm-pinterest {
+  background: #bd081c;
+}
+
+.dsm-social-share-buttons-container.dsm-gradient .dsm-reddit,
+.dsm-social-share-buttons-container.dsm-flat .dsm-reddit {
+  background: #ff4500;
+}
+
+.dsm-social-share-buttons-container.dsm-gradient .dsm-vk,
+.dsm-social-share-buttons-container.dsm-flat .dsm-vk {
+  background: #45668e;
+}
+
+.dsm-social-share-buttons-container.dsm-gradient .dsm-tumbler,
+.dsm-social-share-buttons-container.dsm-flat .dsm-tumbler {
+  background: #35465c;
+}
+
+.dsm-social-share-buttons-container.dsm-gradient .dsm-digg,
+.dsm-social-share-buttons-container.dsm-flat .dsm-digg {
+  background: #005be2;
+}
+
+.dsm-social-share-buttons-container.dsm-gradient .dsm-skype,
+.dsm-social-share-buttons-container.dsm-flat .dsm-skype {
+  background: #00aff0;
+}
+
+.dsm-social-share-buttons-container.dsm-gradient .dsm-stumbleupon,
+.dsm-social-share-buttons-container.dsm-flat .dsm-stumbleupon {
+  background: #eb4924;
+}
+
+.dsm-social-share-buttons-container.dsm-gradient .dsm-mix,
+.dsm-social-share-buttons-container.dsm-flat .dsm-mix {
+  background: #f3782b;
+}
+
+.dsm-social-share-buttons-container.dsm-gradient .dsm-telegram,
+.dsm-social-share-buttons-container.dsm-flat .dsm-telegram {
+  background: #2ca5e0;
+}
+
+.dsm-social-share-buttons-container.dsm-gradient .dsm-xing,
+.dsm-social-share-buttons-container.dsm-flat .dsm-xing {
+  background: #026466;
+}
+
+.dsm-social-share-buttons-container.dsm-gradient .dsm-whatsapp,
+.dsm-social-share-buttons-container.dsm-flat .dsm-whatsapp {
+  background: #25d366;
+}
+
+.dsm-social-share-buttons-container.dsm-gradient .dsm-email,
+.dsm-social-share-buttons-container.dsm-flat .dsm-email {
+  background: #ea4335;
+}
+
+.dsm-social-share-buttons-container.dsm-gradient .dsm-print,
+.dsm-social-share-buttons-container.dsm-flat .dsm-print {
+  background: #aaa;
+}
+
+.dsm-social-share-buttons-container.dsm-gradient .dsm-pocket,
+.dsm-social-share-buttons-container.dsm-flat .dsm-pocket {
+  background: #ef3f56;
+}
+
+/****** when a user select minimal skin  ********/
+
+.dsm-social-share-buttons-container.dsm-minimal.dsm-icon_text .dsm-facebook .dsm-social-share-button-icon,
+.dsm-social-share-buttons-container.dsm-boxed_icon.dsm-icon_text .dsm-facebook .dsm-social-share-button-icon,
+.dsm-social-share-buttons-container.dsm-minimal.dsm-icon .dsm-facebook {
+  background: #3b5998;
+}
+
+.dsm-social-share-buttons-container.dsm-minimal.dsm-icon_text .dsm-twitter .dsm-social-share-button-icon,
+.dsm-social-share-buttons-container.dsm-boxed_icon.dsm-icon_text .dsm-twitter .dsm-social-share-button-icon,
+.dsm-social-share-buttons-container.dsm-minimal.dsm-icon .dsm-twitter {
+  background: #1da1f2;
+}
+
+.dsm-social-share-buttons-container.dsm-minimal.dsm-icon_text .dsm-linkedin .dsm-social-share-button-icon,
+.dsm-social-share-buttons-container.dsm-boxed_icon.dsm-icon_text .dsm-linkedin .dsm-social-share-button-icon,
+.dsm-social-share-buttons-container.dsm-minimal.dsm-icon .dsm-linkedin {
+  background: #0077b5;
+}
+
+.dsm-social-share-buttons-container.dsm-minimal.dsm-icon_text .dsm-pinterest .dsm-social-share-button-icon,
+.dsm-social-share-buttons-container.dsm-boxed_icon.dsm-icon_text .dsm-pinterest .dsm-social-share-button-icon,
+.dsm-social-share-buttons-container.dsm-minimal.dsm-icon .dsm-pinterest {
+  background: #bd081c;
+}
+
+.dsm-social-share-buttons-container.dsm-minimal.dsm-icon_text .dsm-reddit .dsm-social-share-button-icon,
+.dsm-social-share-buttons-container.dsm-boxed_icon.dsm-icon_text .dsm-reddit .dsm-social-share-button-icon,
+.dsm-social-share-buttons-container.dsm-minimal.dsm-icon .dsm-reddit {
+  background: #ff4500;
+}
+
+.dsm-social-share-buttons-container.dsm-minimal.dsm-icon_text .dsm-vk .dsm-social-share-button-icon,
+.dsm-social-share-buttons-container.dsm-boxed_icon.dsm-icon_text .dsm-vk .dsm-social-share-button-icon,
+.dsm-social-share-buttons-container.dsm-minimal.dsm-icon .dsm-vk {
+  background: #45668e;
+}
+
+.dsm-social-share-buttons-container.dsm-minimal.dsm-icon_text .dsm-tumbler .dsm-social-share-button-icon,
+.dsm-social-share-buttons-container.dsm-boxed_icon.dsm-icon_text .dsm-tumbler .dsm-social-share-button-icon,
+.dsm-social-share-buttons-container.dsm-minimal.dsm-icon .dsm-tumbler {
+  background: #35465c;
+}
+
+.dsm-social-share-buttons-container.dsm-minimal.dsm-icon_text .dsm-digg .dsm-social-share-button-icon,
+.dsm-social-share-buttons-container.dsm-boxed_icon.dsm-icon_text .dsm-digg .dsm-social-share-button-icon,
+.dsm-social-share-buttons-container.dsm-minimal.dsm-icon .dsm-digg {
+  background: #005be2;
+}
+
+.dsm-social-share-buttons-container.dsm-minimal.dsm-icon_text .dsm-skype .dsm-social-share-button-icon,
+.dsm-social-share-buttons-container.dsm-boxed_icon.dsm-icon_text .dsm-skype .dsm-social-share-button-icon,
+.dsm-social-share-buttons-container.dsm-minimal.dsm-icon .dsm-skype {
+  background: #00aff0;
+}
+
+.dsm-social-share-buttons-container.dsm-minimal.dsm-icon_text .dsm-stumbleupon .dsm-social-share-button-icon,
+.dsm-social-share-buttons-container.dsm-boxed_icon.dsm-icon_text .dsm-stumbleupon .dsm-social-share-button-icon,
+.dsm-social-share-buttons-container.dsm-minimal.dsm-icon .dsm-stumbleupon {
+  background: #eb4924;
+}
+
+.dsm-social-share-buttons-container.dsm-minimal.dsm-icon_text .dsm-mix .dsm-social-share-button-icon,
+.dsm-social-share-buttons-container.dsm-boxed_icon.dsm-icon_text .dsm-mix .dsm-social-share-button-icon,
+.dsm-social-share-buttons-container.dsm-minimal.dsm-icon .dsm-mix {
+  background: #f3782b;
+}
+
+.dsm-social-share-buttons-container.dsm-minimal.dsm-icon_text .dsm-telegram .dsm-social-share-button-icon,
+.dsm-social-share-buttons-container.dsm-boxed_icon.dsm-icon_text .dsm-telegram .dsm-social-share-button-icon,
+.dsm-social-share-buttons-container.dsm-minimal.dsm-icon .dsm-telegram {
+  background: #2ca5e0;
+}
+
+.dsm-social-share-buttons-container.dsm-minimal.dsm-icon_text .dsm-xing .dsm-social-share-button-icon,
+.dsm-social-share-buttons-container.dsm-boxed_icon.dsm-icon_text .dsm-xing .dsm-social-share-button-icon,
+.dsm-social-share-buttons-container.dsm-minimal.dsm-icon .dsm-xing {
+  background: #026466;
+}
+
+.dsm-social-share-buttons-container.dsm-minimal.dsm-icon_text .dsm-whatsapp .dsm-social-share-button-icon,
+.dsm-social-share-buttons-container.dsm-boxed_icon.dsm-icon_text .dsm-whatsapp .dsm-social-share-button-icon,
+.dsm-social-share-buttons-container.dsm-minimal.dsm-icon .dsm-whatsapp {
+  background: #25d366;
+}
+
+.dsm-social-share-buttons-container.dsm-minimal.dsm-icon_text .dsm-email .dsm-social-share-button-icon,
+.dsm-social-share-buttons-container.dsm-boxed_icon.dsm-icon_text .dsm-email .dsm-social-share-button-icon,
+.dsm-social-share-buttons-container.dsm-minimal.dsm-icon .dsm-email {
+  background: #ea4335;
+}
+
+.dsm-social-share-buttons-container.dsm-minimal.dsm-icon_text .dsm-print .dsm-social-share-button-icon,
+.dsm-social-share-buttons-container.dsm-boxed_icon.dsm-icon_text .dsm-print .dsm-social-share-button-icon,
+.dsm-social-share-buttons-container.dsm-minimal.dsm-icon .dsm-print {
+  background: #aaa;
+}
+
+.dsm-social-share-buttons-container.dsm-minimal.dsm-icon_text .dsm-pocket .dsm-social-share-button-icon,
+.dsm-social-share-buttons-container.dsm-boxed_icon.dsm-icon_text .dsm-pocket .dsm-social-share-button-icon,
+.dsm-social-share-buttons-container.dsm-minimal.dsm-icon .dsm-pocket {
+  background: #ef3f56;
+}
+
+/****** when a user select boxed icon skin ********/
+
+.dsm-social-share-buttons-container.dsm-boxed_icon.dsm-icon_text .dsm-facebook,
+.dsm-social-share-buttons-container.dsm-boxed_icon.dsm-text .dsm-facebook,
+.dsm-social-share-buttons-container.dsm-boxed_icon.dsm-text .dsm-facebook .dsm-social-share-button-text {
+  color: #3b5998;
+}
+
+.dsm-social-share-buttons-container.dsm-boxed_icon.dsm-icon .dsm-facebook {
+  background: #3b5998;
+}
+
+.dsm-social-share-buttons-container.dsm-boxed_icon.dsm-icon_text .dsm-twitter,
+.dsm-social-share-buttons-container.dsm-boxed_icon.dsm-text .dsm-twitter,
+.dsm-social-share-buttons-container.dsm-boxed_icon.dsm-text .dsm-twitter .dsm-social-share-button-text {
+  color: #1da1f2;
+}
+
+.dsm-social-share-buttons-container.dsm-boxed_icon.dsm-icon .dsm-twitter {
+  background: #1da1f2;
+}
+
+.dsm-social-share-buttons-container.dsm-boxed_icon.dsm-icon_text .dsm-linkedin,
+.dsm-social-share-buttons-container.dsm-boxed_icon.dsm-text .dsm-linkedin,
+.dsm-social-share-buttons-container.dsm-boxed_icon.dsm-text .dsm-linkedin .dsm-social-share-button-text {
+  color: #0077b5;
+}
+
+.dsm-social-share-buttons-container.dsm-boxed_icon.dsm-icon .dsm-linkedin {
+  background: #0077b5;
+}
+
+.dsm-social-share-buttons-container.dsm-boxed_icon.dsm-icon_text .dsm-pinterest,
+.dsm-social-share-buttons-container.dsm-boxed_icon.dsm-text .dsm-pinterest,
+.dsm-social-share-buttons-container.dsm-boxed_icon.dsm-text .dsm-pinterest .dsm-social-share-button-text {
+  color: #bd081c;
+}
+
+.dsm-social-share-buttons-container.dsm-boxed_icon.dsm-icon .dsm-pinterest {
+  background: #bd081c;
+}
+
+.dsm-social-share-buttons-container.dsm-boxed_icon.dsm-icon_text .dsm-reddit,
+.dsm-social-share-buttons-container.dsm-boxed_icon.dsm-text .dsm-reddit,
+.dsm-social-share-buttons-container.dsm-boxed_icon.dsm-text .dsm-reddit .dsm-social-share-button-text {
+  color: #ff4500;
+}
+
+.dsm-social-share-buttons-container.dsm-boxed_icon.dsm-icon .dsm-reddit {
+  background: #ff4500;
+}
+
+.dsm-social-share-buttons-container.dsm-boxed_icon.dsm-icon_text .dsm-vk,
+.dsm-social-share-buttons-container.dsm-boxed_icon.dsm-text .dsm-vk,
+.dsm-social-share-buttons-container.dsm-boxed_icon.dsm-text .dsm-vk .dsm-social-share-button-text {
+  color: #45668e;
+}
+
+.dsm-social-share-buttons-container.dsm-boxed_icon.dsm-icon .dsm-vk {
+  background: #45668e;
+}
+
+.dsm-social-share-buttons-container.dsm-boxed_icon.dsm-icon_text .dsm-tumbler,
+.dsm-social-share-buttons-container.dsm-boxed_icon.dsm-text .dsm-tumbler,
+.dsm-social-share-buttons-container.dsm-boxed_icon.dsm-text .dsm-tumbler .dsm-social-share-button-text {
+  color: #35465c;
+}
+
+.dsm-social-share-buttons-container.dsm-boxed_icon.dsm-icon .dsm-tumbler {
+  background: #35465c;
+}
+
+.dsm-social-share-buttons-container.dsm-boxed_icon.dsm-icon_text .dsm-digg,
+.dsm-social-share-buttons-container.dsm-boxed_icon.dsm-text .dsm-digg,
+.dsm-social-share-buttons-container.dsm-boxed_icon.dsm-text .dsm-digg .dsm-social-share-button-text {
+  color: #005be2;
+}
+
+.dsm-social-share-buttons-container.dsm-boxed_icon.dsm-icon .dsm-digg {
+  background: #005be2;
+}
+
+.dsm-social-share-buttons-container.dsm-boxed_icon.dsm-icon_text .dsm-skype,
+.dsm-social-share-buttons-container.dsm-boxed_icon.dsm-text .dsm-skype,
+.dsm-social-share-buttons-container.dsm-boxed_icon.dsm-text .dsm-skype .dsm-social-share-button-text {
+  color: #00aff0;
+}
+
+.dsm-social-share-buttons-container.dsm-boxed_icon.dsm-icon .dsm-skype {
+  background: #00aff0;
+}
+
+.dsm-social-share-buttons-container.dsm-boxed_icon.dsm-icon_text .dsm-stumbleupon,
+.dsm-social-share-buttons-container.dsm-boxed_icon.dsm-text .dsm-stumbleupon,
+.dsm-social-share-buttons-container.dsm-boxed_icon.dsm-text .dsm-stumbleupon .dsm-social-share-button-text {
+  color: #eb4924;
+}
+
+.dsm-social-share-buttons-container.dsm-boxed_icon.dsm-icon .dsm-stumbleupon {
+  background: #eb4924;
+}
+
+.dsm-social-share-buttons-container.dsm-boxed_icon.dsm-icon_text .dsm-mix,
+.dsm-social-share-buttons-container.dsm-boxed_icon.dsm-text .dsm-mix,
+.dsm-social-share-buttons-container.dsm-boxed_icon.dsm-text .dsm-mix .dsm-social-share-button-text {
+  color: #f3782b;
+}
+
+.dsm-social-share-buttons-container.dsm-boxed_icon.dsm-icon .dsm-mix {
+  background: #f3782b;
+}
+
+.dsm-social-share-buttons-container.dsm-boxed_icon.dsm-icon_text .dsm-telegram,
+.dsm-social-share-buttons-container.dsm-boxed_icon.dsm-text .dsm-telegram,
+.dsm-social-share-buttons-container.dsm-boxed_icon.dsm-text .dsm-telegram .dsm-social-share-button-text {
+  color: #2ca5e0;
+}
+
+.dsm-social-share-buttons-container.dsm-boxed_icon.dsm-icon .dsm-telegram {
+  background: #2ca5e0;
+}
+
+.dsm-social-share-buttons-container.dsm-boxed_icon.dsm-icon_text .dsm-xing,
+.dsm-social-share-buttons-container.dsm-boxed_icon.dsm-text .dsm-xing,
+.dsm-social-share-buttons-container.dsm-boxed_icon.dsm-text .dsm-xing .dsm-social-share-button-text {
+  color: #026466;
+}
+
+.dsm-social-share-buttons-container.dsm-boxed_icon.dsm-icon .dsm-xing {
+  background: #026466;
+}
+
+.dsm-social-share-buttons-container.dsm-boxed_icon.dsm-icon_text .dsm-whatsapp,
+.dsm-social-share-buttons-container.dsm-boxed_icon.dsm-text .dsm-whatsapp,
+.dsm-social-share-buttons-container.dsm-boxed_icon.dsm-text .dsm-whatsapp .dsm-social-share-button-text {
+  color: #25d366;
+}
+
+.dsm-social-share-buttons-container.dsm-boxed_icon.dsm-icon .dsm-whatsapp {
+  background: #25d366;
+}
+
+.dsm-social-share-buttons-container.dsm-boxed_icon.dsm-icon_text .dsm-email,
+.dsm-social-share-buttons-container.dsm-boxed_icon.dsm-text .dsm-email,
+.dsm-social-share-buttons-container.dsm-boxed_icon.dsm-text .dsm-email .dsm-social-share-button-text {
+  color: #ea4335;
+}
+
+.dsm-social-share-buttons-container.dsm-boxed_icon.dsm-icon .dsm-email {
+  background: #ea4335;
+}
+
+.dsm-social-share-buttons-container.dsm-boxed_icon.dsm-icon_text .dsm-print,
+.dsm-social-share-buttons-container.dsm-boxed_icon.dsm-text .dsm-print,
+.dsm-social-share-buttons-container.dsm-boxed_icon.dsm-text .dsm-print .dsm-social-share-button-text {
+  color: #aaa;
+}
+
+.dsm-social-share-buttons-container.dsm-boxed_icon.dsm-icon .dsm-print {
+  background: #aaa;
+}
+
+.dsm-social-share-buttons-container.dsm-boxed_icon.dsm-icon_text .dsm-pocket,
+.dsm-social-share-buttons-container.dsm-boxed_icon.dsm-text .dsm-pocket,
+.dsm-social-share-buttons-container.dsm-boxed_icon.dsm-text .dsm-pocket .dsm-social-share-button-text {
+  color: #ef3f56;
+}
+
+.dsm-social-share-buttons-container.dsm-boxed_icon.dsm-icon .dsm-pocket {
+  background: #ef3f56;
+}
+
+/****** when a user select framed skin ********/
+
+.dsm-social-share-buttons-container.dsm-framed .dsm-facebook {
+  color: #3b5998;
+}
+
+.dsm-social-share-buttons-container.dsm-framed .dsm-twitter {
+  color: #1da1f2;
+}
+
+.dsm-social-share-buttons-container.dsm-framed .dsm-linkedin {
+  color: #0077b5;
+}
+
+.dsm-social-share-buttons-container.dsm-framed .dsm-pinterest {
+  color: #bd081c;
+}
+
+.dsm-social-share-buttons-container.dsm-framed .dsm-reddit {
+  color: #ff4500;
+}
+
+.dsm-social-share-buttons-container.dsm-framed .dsm-vk {
+  color: #45668e;
+}
+
+.dsm-social-share-buttons-container.dsm-framed .dsm-tumbler {
+  color: #35465c;
+}
+
+.dsm-social-share-buttons-container.dsm-framed .dsm-digg {
+  color: #005be2;
+}
+
+.dsm-social-share-buttons-container.dsm-framed .dsm-skype {
+  color: #00aff0;
+}
+
+.dsm-social-share-buttons-container.dsm-framed .dsm-stumbleupon {
+  color: #eb4924;
+}
+
+.dsm-social-share-buttons-container.dsm-framed .dsm-mix {
+  color: #f3782b;
+}
+
+.dsm-social-share-buttons-container.dsm-framed .dsm-telegram {
+  color: #2ca5e0;
+}
+
+.dsm-social-share-buttons-container.dsm-framed .dsm-xing {
+  color: #026466;
+}
+
+.dsm-social-share-buttons-container.dsm-framed .dsm-whatsapp {
+  color: #25d366;
+}
+
+.dsm-social-share-buttons-container.dsm-framed .dsm-email {
+  color: #ea4335;
+}
+
+.dsm-social-share-buttons-container.dsm-framed .dsm-print {
+  color: #aaa;
+}
+
+.dsm-social-share-buttons-container.dsm-framed .dsm-pocket {
+  color: #ef3f56;
+}

@@ -1,0 +1,25 @@
+.et_pb_button {
+  font-size: 16px;
+  font-weight: 600;
+  padding: 0.65em 3.7em 0.5em 1em;
+
+  &:hover {
+    padding: 0.65em 3.7em 0.5em 1em !important;
+    background: transparent !important;
+    color: #3b804d !important;
+  }
+
+  &::after {
+    display: none;
+  }
+
+  &.btn-primary {
+    background: #3b804d;
+    color: #fff;
+
+    &:hover {
+      background: #c7d974 !important;
+      color: #3b804d;
+    }
+  }
+}

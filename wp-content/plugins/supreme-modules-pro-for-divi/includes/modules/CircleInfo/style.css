@@ -1,0 +1,108 @@
+.dsm-circle-info-container {
+  margin: auto;
+  position: relative;
+}
+
+.dsm-circle-info-container .dsm-circle-info-content {
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  position: relative;
+}
+
+.dsm-circle-info-container
+  .dsm-circle-info-content
+  .dsm-circle-info-content-wrapper {
+  top: 50%;
+  right: 0;
+  bottom: 0;
+  left: 50%;
+  width: 80%;
+  height: 80%;
+  opacity: 0;
+  visibility: hidden;
+  border-radius: 50%;
+  position: absolute !important;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.dsm-circle-info-container
+  .dsm-circle-info-content
+  .dsm-circle-info-content-wrapper.dsm-circle-info-item-active {
+  opacity: 1;
+  visibility: visible;
+}
+
+.dsm-circle-info-button-wrapper {
+  width: 85px;
+  height: 85px;
+  border-radius: 50%;
+  display: block;
+  overflow: hidden;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  z-index: 99;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  border-style: solid;
+}
+
+.dsm-circle-info-inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.dsm_circle_info_image {
+  max-width: 30%;
+  border-style: solid;
+}
+
+.dsm-circle-info-container .dsm-circle-info-content-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.dsm-circle-info-container
+  .dsm-circle-info-content-wrapper
+  .et_pb_button_wrapper {
+  margin-top: 15px;
+}
+
+/*fix vb fix*/
+.et-db #et-boc .et-l #et-fb-app .dsm_circle_info_child,
+.et-db #et-boc .et-l #et-fb-app .dsm_circle_info_child {
+  display: none;
+}

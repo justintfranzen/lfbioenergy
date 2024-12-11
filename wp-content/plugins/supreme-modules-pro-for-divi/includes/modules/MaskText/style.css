@@ -1,0 +1,8 @@
+.dsm-mask-text {
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}

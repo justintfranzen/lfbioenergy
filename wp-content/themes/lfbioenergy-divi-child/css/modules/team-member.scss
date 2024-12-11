@@ -1,0 +1,120 @@
+.et_pb_section {
+  &.team {
+    padding-bottom: 8em;
+
+    .et_pb_blurb {
+      background: #fff;
+      border-radius: 20px;
+      padding: 2em;
+
+      .et_pb_main_blurb_image img {
+        border-radius: 50%;
+      }
+
+      .et_pb_module_header {
+        color: #3b804d;
+        font-size: 24px;
+        text-align: center;
+        font-weight: 800;
+      }
+
+      .et_pb_blurb_description {
+        color: #4d4d4d;
+        font-size: 14px;
+        font-weight: 200;
+        text-align: center;
+      }
+
+      .bio-btn {
+        color: #3b804d;
+        border: 2px solid #3b804d;
+        font-size: 14px;
+        font-weight: 600;
+        display: block;
+        padding: 1em 0;
+        width: 15em;
+        margin: 2em auto 0;
+        transition: 0.3s all;
+
+        &:hover {
+          background: #3b804d;
+          color: #fff;
+        }
+      }
+    }
+  }
+
+  &.green-wave {
+    &::before {
+      content: '';
+      background-image: url('/wp-content/themes/lfbioenergy-divi-child/assets/img/green-wave.png');
+      width: 100%;
+      height: 100%;
+      background-size: cover;
+      position: absolute;
+      background-repeat: no-repeat;
+      background-position-y: -21em;
+      z-index: 2;
+    }
+  }
+
+  &.careers-cta {
+    display: flex;
+    align-items: center;
+
+    &::before {
+      content: '';
+      background-image: url('/wp-content/themes/lfbioenergy-divi-child/assets/img/white-wave.png');
+      height: 60vh;
+      background-size: 100% 100%;
+      position: absolute;
+      background-repeat: no-repeat;
+      z-index: 1;
+      background-position: center;
+      width: 100%;
+    }
+  }
+}
+
+.divioverlay {
+  display: flex;
+  align-items: center;
+
+  .et_pb_section {
+    &.bio-modal {
+      background: #fff !important;
+      width: 900px;
+      max-width: calc(90% - 1em);
+      margin: 0 auto;
+
+      @media (max-width: 980px) {
+        padding: 1em;
+      }
+
+      .et_pb_row {
+        padding: 1em 3em;
+        width: 100%;
+
+        .et_pb_image {
+          img {
+            border-radius: 50%;
+          }
+          @media (max-width: 980px) {
+            display: flex;
+            justify-content: center;
+          }
+        }
+
+        .et_pb_text_inner {
+          text-align: center;
+
+          h2 {
+            font-size: 38px;
+            padding-bottom: 0;
+            margin-bottom: 1em;
+          }
+        }
+      }
+    }
+  }
+}

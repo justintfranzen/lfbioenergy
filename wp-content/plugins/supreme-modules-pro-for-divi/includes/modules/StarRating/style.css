@@ -1,0 +1,99 @@
+.dsm-star-rating {
+    color: #f0ad4e;
+    display: inline-block;
+    line-height: 1;
+}
+
+.dsm-star-rating i {
+    display: inline-block;
+    position: relative;
+    font-style: normal;
+    cursor: default
+}
+
+.dsm-star-rating i:before {
+    content: "\002605";
+    display: block;
+    font-size: inherit;
+    font-family: inherit;
+    position: absolute;
+    overflow: hidden;
+    color: #f0ad4e;
+    top: 0;
+    left: 0
+}
+
+.dsm-star-rating .dsm-star-empty:before, .dsm-star-rating .dsm-star-0:before {
+    content: none
+}
+
+.dsm-star-rating .dsm-star-1:before {
+    width: 10%
+}
+
+.dsm-star-rating .dsm-star-2:before {
+    width: 20%
+}
+
+.dsm-star-rating .dsm-star-3:before {
+    width: 30%
+}
+
+.dsm-star-rating .dsm-star-4:before {
+    width: 40%
+}
+
+.dsm-star-rating .dsm-star-5:before {
+    width: 50%
+}
+
+.dsm-star-rating .dsm-star-6:before {
+    width: 60%
+}
+
+.dsm-star-rating .dsm-star-7:before {
+    width: 70%
+}
+
+.dsm-star-rating .dsm-star-8:before {
+    width: 51%;
+}
+
+.dsm-star-rating .dsm-star-9:before {
+    width: 90%
+}
+
+.dsm-star-display-type-inline-block .dsm-star-rating-title,
+.dsm-star-display-type-inline-block .dsm-star-rating {
+    display: inline-block;
+}
+
+.dsm-star-display-type-block .dsm-star-rating-title,
+.dsm-star-display-type-block .dsm-star-rating {
+    display: block;
+}
+
+.dsm-star-display-type-block.dsm-star-title-position-top .dsm-star-rating-title {
+    margin-bottom: 7px;
+}
+
+.dsm-star-display-type-block.dsm-star-title-position-bottom .dsm-star-rating-title {
+    margin-top: 7px;
+}
+
+.dsm-star-display-type-inline-block.dsm-star-title-position-left .dsm-star-rating-title {
+    margin-right: 7px;
+}
+
+.dsm-star-display-type-inline-block.dsm-star-title-position-right .dsm-star-rating-title {
+    margin-left: 7px;
+
+}
+
+.dsm-star-rating-title {
+    padding: 0;
+}
+
+.dsm-star-rating-text {
+    color: #333;
+}

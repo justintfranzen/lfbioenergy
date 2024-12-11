@@ -1,0 +1,44 @@
+.dsm_icon_divider .dsm-icon-divider-wrapper {
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin: 0 auto;
+}
+
+.dsm-icon-divider-image {
+    display: inline-block;
+    max-width: 50%;
+    line-height: 0;
+}
+
+.dsm-icon-divider-image-wrap {
+    display: block;
+    margin: auto;
+    border-style: solid;
+}
+
+.dsm-icon-divider-before,
+.dsm-icon-divider-after {
+    font-size: 0;
+    line-height: 0;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: #7EBEC5;
+}
+
+.dsm-divider {
+    padding-bottom: 0;
+    -ms-flex-negative: 1;
+    flex-shrink: 1;
+    margin: 0 10px;
+}
+
+.dsm-icon-divider-align-left .dsm-icon-divider-before {
+    display: none;
+}
+
+.dsm-icon-divider-align-right .dsm-icon-divider-after {
+    display: none;
+}

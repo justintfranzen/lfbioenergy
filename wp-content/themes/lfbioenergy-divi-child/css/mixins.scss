@@ -1,0 +1,182 @@
+@use 'sass:math';
+
+// Transition: default .3s ease
+@mixin transition($args: all 0.3s ease-in-out 0s) {
+  transition: $args;
+}
+
+// Transition: default to none
+@mixin transform($args: none) {
+  transform: $args;
+}
+
+// Media query - iPad 1, 2, mini, air
+@mixin tablet-standard {
+  @media only screen and (min-width: 768px) and (max-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+    @content;
+  }
+}
+
+// Media query - iPad 3, 4, Pro
+@mixin tablet-large {
+  @media only screen and (min-width: 768px) and (max-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) {
+    @content;
+  }
+}
+
+@mixin ipad-portrait {
+  @media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait),
+    (min-width: 810px) and (orientation: portrait) {
+    @content;
+  }
+}
+
+@mixin ipad-landscape {
+  @media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    @content;
+  }
+}
+
+@mixin tablet-portrait {
+  @media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait),
+    (min-width: 810px) and (max-width: 1080px) {
+    @content;
+  }
+}
+
+@mixin tablet-landscape {
+  @media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape),
+    (min-width: 810px) and (max-width: 1080px) {
+    @content;
+  }
+}
+
+@mixin pro-portrait {
+  @media only screen and (min-width: 834px) and (max-width: 834px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+    @content;
+  }
+}
+
+@mixin pro-landscape {
+  // prettier-ignore
+  @media only screen and (min-width: 1112px) and (max-width: 1112px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+    @content;
+  }
+}
+
+@mixin iphone-landscape {
+  @media only screen and (min-width: 375px) and (max-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
+    @content;
+  }
+}
+
+@mixin thin-horiz {
+  @media (max-width: $tablet-x-large),
+    only screen and (max-height: 600px) and (orientation: landscape) {
+    @content;
+  }
+}
+
+// Jumpy on Safari fix
+@mixin backface-visibility() {
+  transform: translate3d(0, 0, 0);
+  transform-style: preserve-3d;
+  backface-visibility: hidden;
+}
+
+@mixin flex-center() {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin absolute-center() {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+@mixin absolute-fill() {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+@function parse-directions($directions) {
+  $top: 0;
+  $bottom: 0;
+  $left: 0;
+  $right: 0;
+
+  @if length($directions) > 0 {
+    $d1: list.nth($directions, 1);
+    $top: $d1;
+    $bottom: $d1;
+    $left: $d1;
+    $right: $d1;
+  }
+  @if length($directions) > 1 {
+    $d2: list.nth($directions, 2);
+    $left: $d2;
+    $right: $d2;
+  }
+  @if length($directions) > 2 {
+    $d3: list.nth($directions, 3);
+    $bottom: $d3;
+  }
+  @if length($directions) > 3 {
+    $d4: list.nth($directions, 4);
+    $left: $d4;
+  }
+
+  @return (top: $top, bottom: $bottom, left: $left, right: $right);
+}
+@mixin position($positions...) {
+  $positions: parse-directions($positions);
+
+  top: map.get($positions, 'top');
+  right: map.get($positions, 'right');
+  bottom: map.get($positions, 'bottom');
+  left: map.get($positions, 'left');
+}
+
+@mixin pos-absolute($positions...) {
+  position: absolute;
+  @include position($positions...);
+}
+
+@mixin pos-fixed($positions...) {
+  position: fixed;
+  @include position($positions...);
+}
+
+@mixin bg-position() {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  object-fit: cover;
+  object-position: center;
+}
+
+@mixin aspect-ratio($width, $height) {
+  position: relative;
+
+  &::before {
+    display: block;
+    content: '';
+    width: 100%;
+    padding-top: math.div($height, $width) * 100%;
+  }
+
+  > * {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+}

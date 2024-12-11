@@ -1,0 +1,265 @@
+.et-db #et-boc .et-l #et-fb-app .et_pb_module.dsm_image_hotspots_child {
+    position: absolute;
+    margin-bottom: 0;
+}
+
+.dsm_image_hotspots_wrap,
+.dsm_image_hotspots_img_wrap {
+    position: relative;
+    line-height: 0;
+}
+
+.et-db #et-boc .et-l .dsm_image_hotspots_child.et_pb_with_border,
+.dsm_image_hotspots_child.et_pb_with_border {
+    position: absolute;
+}
+
+.dsm_image_hotspots_child {
+    position: absolute;
+    display: block;
+    top: 40%;
+    left: 40%;
+    border-radius: 50px;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.dsm_image_hotspots_child .dsm_image_hotspots_wrapper {
+    position: relative;
+    cursor: pointer;
+    font-size: 14px;
+    min-width: 14px;
+    min-height: 14px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-style: solid;
+    border-width: 0px;
+    padding: 8px;
+    border-radius: 50px;
+    background-size: cover;
+}
+
+.dsm_image_hotspot_img {
+    border-style: solid;
+}
+
+.dsm_image_hotspots_text {
+    display: inline-block;
+}
+
+.dsm_image_hotspots_icon,
+.dsm_image_hotspots_text,
+.et-db #et-boc .et-l .et-pb-icon.dsm_image_hotspots_icon {
+    font-size: 14px;
+    line-height: 1;
+    color: #fff;
+}
+
+.dsm_image_tooltip_title {
+    padding-bottom: 0;
+    line-height: 1;
+    color: #fff;
+}
+
+/*
+.dsm_image_tooltip_content {
+    margin-top: 5px;
+    line-height: 1.4em;
+    word-wrap: break-word;
+    color: #fff;
+    font-size: 13px;
+}*/
+.dsm_image_hotspot_tooltip_wrapper {
+    pointer-events: auto !important;
+    line-height: 1.4em;
+    word-wrap: break-word;
+    color: #fff;
+    font-size: 13px;
+    overflow: visible !important
+}
+
+.dsm_image_hotspot_tooltip_wrapper .tippy-content {
+    padding-top: 8px;
+    padding-right: 10px;
+    padding-bottom: 8px;
+    padding-left: 10px;
+    border-radius: 3px;
+    max-width: 180px;
+
+}
+
+.dsm_image_hotspot_tooltip_wrapper .tippy-tooltip {
+    border-radius: 3px;
+}
+
+.dsm_image_hotspot_tooltip_wrapper.tippy-tooltip ul {
+    list-style-type: disc;
+    padding: 0 0 10px 1em;
+    line-height: 26px;
+    list-style-type: disc;
+}
+
+.dsm_image_hotspot_tooltip_wrapper.tippy-tooltip ol {
+    padding: 0 0 10px 0;
+    line-height: 26px;
+    list-style-position: inside;
+    list-style-type: decimal;
+}
+
+.dsm_image_hotspot_tooltip_wrapper .et_pb_button_wrapper {
+    margin-top: 15px;
+}
+
+.dsm_image_hotspot_pulse:before {
+    content: "";
+    display: block;
+    position: absolute;
+    z-index: -1;
+    transform: scale(1);
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: 50px;
+    pointer-events: none;
+    animation: pulse-grow 1.5s ease-in-out;
+    animation-iteration-count: infinite;
+    opacity: 0.0;
+    border-style: solid;
+    border-width: 0px;
+}
+
+@keyframes pulse-grow {
+    0% {
+        transform: scale(0.1, 0.1);
+        opacity: 0.0;
+    }
+
+    50% {
+        opacity: 1.0;
+    }
+
+    100% {
+        transform: scale(1.5, 1.5);
+        opacity: 0.0;
+    }
+}
+
+/* scale animation*/
+.tippy-box[data-animation=scale][data-placement^=top] {
+    transform-origin: bottom
+}
+
+.tippy-box[data-animation=scale][data-placement^=bottom] {
+    transform-origin: top
+}
+
+.tippy-box[data-animation=scale][data-placement^=left] {
+    transform-origin: right
+}
+
+.tippy-box[data-animation=scale][data-placement^=right] {
+    transform-origin: left
+}
+
+.tippy-box[data-animation=scale][data-state=hidden] {
+    transform: scale(.5);
+    opacity: 0
+}
+
+/* shift away animation*/
+.tippy-box[data-animation=shift-away][data-state=hidden] {
+    opacity: 0
+}
+
+.tippy-box[data-animation=shift-away][data-state=hidden][data-placement^=top] {
+    transform: translateY(10px)
+}
+
+.tippy-box[data-animation=shift-away][data-state=hidden][data-placement^=bottom] {
+    transform: translateY(-10px)
+}
+
+.tippy-box[data-animation=shift-away][data-state=hidden][data-placement^=left] {
+    transform: translateX(10px)
+}
+
+.tippy-box[data-animation=shift-away][data-state=hidden][data-placement^=right] {
+    transform: translateX(-10px)
+}
+
+/* shift away animation*/
+/* shift toward animation*/
+.tippy-box[data-animation=shift-toward][data-state=hidden] {
+    opacity: 0
+}
+
+.tippy-box[data-animation=shift-toward][data-state=hidden][data-placement^=top] {
+    transform: translateY(-10px)
+}
+
+.tippy-box[data-animation=shift-toward][data-state=hidden][data-placement^=bottom] {
+    transform: translateY(10px)
+}
+
+.tippy-box[data-animation=shift-toward][data-state=hidden][data-placement^=left] {
+    transform: translateX(-10px)
+}
+
+.tippy-box[data-animation=shift-toward][data-state=hidden][data-placement^=right] {
+    transform: translateX(10px)
+}
+
+/* perspective animation*/
+.tippy-box[data-animation=perspective][data-placement^=top] {
+    transform-origin: bottom
+}
+
+.tippy-box[data-animation=perspective][data-placement^=top][data-state=visible] {
+    transform: perspective(700px)
+}
+
+.tippy-box[data-animation=perspective][data-placement^=top][data-state=hidden] {
+    transform: perspective(700px) translateY(8px) rotateX(60deg)
+}
+
+.tippy-box[data-animation=perspective][data-placement^=bottom] {
+    transform-origin: top
+}
+
+.tippy-box[data-animation=perspective][data-placement^=bottom][data-state=visible] {
+    transform: perspective(700px)
+}
+
+.tippy-box[data-animation=perspective][data-placement^=bottom][data-state=hidden] {
+    transform: perspective(700px) translateY(-8px) rotateX(-60deg)
+}
+
+.tippy-box[data-animation=perspective][data-placement^=left] {
+    transform-origin: right
+}
+
+.tippy-box[data-animation=perspective][data-placement^=left][data-state=visible] {
+    transform: perspective(700px)
+}
+
+.tippy-box[data-animation=perspective][data-placement^=left][data-state=hidden] {
+    transform: perspective(700px) translateX(8px) rotateY(-60deg)
+}
+
+.tippy-box[data-animation=perspective][data-placement^=right] {
+    transform-origin: left
+}
+
+.tippy-box[data-animation=perspective][data-placement^=right][data-state=visible] {
+    transform: perspective(700px)
+}
+
+.tippy-box[data-animation=perspective][data-placement^=right][data-state=hidden] {
+    transform: perspective(700px) translateX(-8px) rotateY(60deg)
+}
+
+.tippy-box[data-animation=perspective][data-state=hidden] {
+    opacity: 0
+}

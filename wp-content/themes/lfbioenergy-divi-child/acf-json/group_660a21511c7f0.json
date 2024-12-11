@@ -1,0 +1,60 @@
+{
+  "key": "group_660a21511c7f0",
+  "title": "Podcast Settings",
+  "fields": [
+    {
+      "key": "field_660a2151409d0",
+      "label": "Podcast Audio File",
+      "name": "podcast_audio_file",
+      "aria-label": "",
+      "type": "file",
+      "instructions": "",
+      "required": 0,
+      "conditional_logic": 0,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      },
+      "return_format": "array",
+      "library": "all",
+      "min_size": "",
+      "max_size": "",
+      "mime_types": "mp3"
+    }
+  ],
+  "location": [
+    [
+      {
+        "param": "post_type",
+        "operator": "==",
+        "value": "podcast"
+      },
+      {
+        "param": "post_type",
+        "operator": "!=",
+        "value": "post"
+      },
+      {
+        "param": "post_type",
+        "operator": "!=",
+        "value": "page"
+      },
+      {
+        "param": "post_type",
+        "operator": "!=",
+        "value": "industry-reflection"
+      }
+    ]
+  ],
+  "menu_order": 0,
+  "position": "side",
+  "style": "default",
+  "label_placement": "top",
+  "instruction_placement": "label",
+  "hide_on_screen": "",
+  "active": true,
+  "description": "",
+  "show_in_rest": 0,
+  "modified": 1711940135
+}

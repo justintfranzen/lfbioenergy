@@ -1,0 +1,10 @@
+# node_modules are ignored by default
+/vendor
+/build
+/coverage
+/dist
+**/dist/*
+/**/*.min.js
+/**/*.dist.js
+/**/*.min.css
+/**/*.dist.css

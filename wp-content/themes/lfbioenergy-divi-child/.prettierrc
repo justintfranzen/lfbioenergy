@@ -1,0 +1,15 @@
+{
+  "tabWidth": 2,
+  "semi": true,
+  "singleQuote": true,
+  "phpVersion": "8.0",
+  "trailingComma": "all",
+  "trailingCommaPHP": true,
+  "printWidth": 80,
+  "overrides": [
+    {
+      "files": "*.php",
+      "options": { "parser": "php", "printWidth": 120 }
+    }
+  ]
+}

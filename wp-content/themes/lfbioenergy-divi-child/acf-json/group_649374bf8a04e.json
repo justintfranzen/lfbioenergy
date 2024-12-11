@@ -1,0 +1,265 @@
+{
+  "key": "group_649374bf8a04e",
+  "title": "Global Settings",
+  "fields": [
+    {
+      "key": "field_6495031e19625",
+      "label": "Site Logos",
+      "name": "",
+      "aria-label": "",
+      "type": "tab",
+      "instructions": "",
+      "required": 0,
+      "conditional_logic": 0,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      },
+      "placement": "left",
+      "endpoint": 1
+    },
+    {
+      "key": "field_6495037919626",
+      "label": "Site Logo",
+      "name": "tbp_site_logo",
+      "aria-label": "",
+      "type": "image",
+      "instructions": "",
+      "required": 0,
+      "conditional_logic": 0,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      },
+      "return_format": "array",
+      "library": "all",
+      "min_width": "",
+      "min_height": "",
+      "min_size": "",
+      "max_width": "",
+      "max_height": "",
+      "max_size": "",
+      "mime_types": "",
+      "preview_size": "medium"
+    },
+    {
+      "key": "field_649374bf7c868",
+      "label": "Required Pages",
+      "name": "",
+      "aria-label": "",
+      "type": "tab",
+      "instructions": "",
+      "required": 0,
+      "conditional_logic": 0,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      },
+      "placement": "left",
+      "endpoint": 1
+    },
+    {
+      "key": "field_6493754b7c869",
+      "label": "Landing Page",
+      "name": "landing_page",
+      "aria-label": "",
+      "type": "post_object",
+      "instructions": "",
+      "required": 1,
+      "conditional_logic": 0,
+      "wrapper": {
+        "width": "50",
+        "class": "",
+        "id": ""
+      },
+      "post_type": ["page"],
+      "post_status": ["publish"],
+      "taxonomy": "",
+      "return_format": "id",
+      "multiple": 0,
+      "allow_null": 0,
+      "ui": 1,
+      "bidirectional_target": []
+    },
+    {
+      "key": "field_649375a912290",
+      "label": "Gated Landing Page",
+      "name": "gated_landing_page",
+      "aria-label": "",
+      "type": "post_object",
+      "instructions": "",
+      "required": 1,
+      "conditional_logic": 0,
+      "wrapper": {
+        "width": "50",
+        "class": "",
+        "id": ""
+      },
+      "post_type": ["page"],
+      "post_status": ["publish"],
+      "taxonomy": "",
+      "return_format": "id",
+      "multiple": 0,
+      "allow_null": 0,
+      "ui": 1,
+      "bidirectional_target": []
+    },
+    {
+      "key": "field_64a4ed31426df",
+      "label": "News Index Page",
+      "name": "news_index_page",
+      "aria-label": "",
+      "type": "post_object",
+      "instructions": "",
+      "required": 1,
+      "conditional_logic": 0,
+      "wrapper": {
+        "width": "50",
+        "class": "",
+        "id": ""
+      },
+      "post_type": ["page"],
+      "post_status": ["publish"],
+      "taxonomy": "",
+      "return_format": "object",
+      "multiple": 0,
+      "allow_null": 0,
+      "ui": 1,
+      "bidirectional_target": []
+    },
+    {
+      "key": "field_64a4ed59426e0",
+      "label": "Industry Reflections Index Page",
+      "name": "industry_reflections_index_page",
+      "aria-label": "",
+      "type": "post_object",
+      "instructions": "",
+      "required": 1,
+      "conditional_logic": 0,
+      "wrapper": {
+        "width": "50",
+        "class": "",
+        "id": ""
+      },
+      "post_type": ["page"],
+      "post_status": ["publish"],
+      "taxonomy": "",
+      "return_format": "object",
+      "multiple": 0,
+      "allow_null": 0,
+      "ui": 1,
+      "bidirectional_target": []
+    },
+    {
+      "key": "field_64c80a0d4631e",
+      "label": "Careers Openings Index Page",
+      "name": "career_openings_index_page",
+      "aria-label": "",
+      "type": "post_object",
+      "instructions": "",
+      "required": 1,
+      "conditional_logic": 0,
+      "wrapper": {
+        "width": "50",
+        "class": "",
+        "id": ""
+      },
+      "post_type": ["page"],
+      "post_status": ["publish"],
+      "taxonomy": "",
+      "return_format": "object",
+      "multiple": 0,
+      "allow_null": 0,
+      "ui": 1,
+      "bidirectional_target": []
+    },
+    {
+      "key": "field_66032fb445758",
+      "label": "Podcasts Index Page",
+      "name": "podcasts_index_page",
+      "aria-label": "",
+      "type": "post_object",
+      "instructions": "",
+      "required": 1,
+      "conditional_logic": 0,
+      "wrapper": {
+        "width": "50",
+        "class": "",
+        "id": ""
+      },
+      "post_type": ["page"],
+      "post_status": ["publish"],
+      "taxonomy": "",
+      "return_format": "object",
+      "multiple": 0,
+      "allow_null": 0,
+      "bidirectional": 0,
+      "ui": 1,
+      "bidirectional_target": []
+    },
+    {
+      "key": "field_64a4f9fc256b6",
+      "label": "Fallbacks",
+      "name": "",
+      "aria-label": "",
+      "type": "tab",
+      "instructions": "",
+      "required": 0,
+      "conditional_logic": 0,
+      "wrapper": {
+        "width": "",
+        "class": "",
+        "id": ""
+      },
+      "placement": "left",
+      "endpoint": 0
+    },
+    {
+      "key": "field_64a4fa19256b7",
+      "label": "Default Fallback Image",
+      "name": "default_fallback_image",
+      "aria-label": "",
+      "type": "image",
+      "instructions": "",
+      "required": 1,
+      "conditional_logic": 0,
+      "wrapper": {
+        "width": "100",
+        "class": "",
+        "id": ""
+      },
+      "return_format": "array",
+      "library": "all",
+      "min_width": "",
+      "min_height": "",
+      "min_size": "",
+      "max_width": "",
+      "max_height": "",
+      "max_size": "",
+      "mime_types": "",
+      "preview_size": "medium_large"
+    }
+  ],
+  "location": [
+    [
+      {
+        "param": "options_page",
+        "operator": "==",
+        "value": "acf-options-global-settings"
+      }
+    ]
+  ],
+  "menu_order": 0,
+  "position": "normal",
+  "style": "default",
+  "label_placement": "top",
+  "instruction_placement": "label",
+  "hide_on_screen": "",
+  "active": true,
+  "description": "",
+  "show_in_rest": 0,
+  "modified": 1711484871
+}

@@ -1,0 +1,199 @@
+/*.et_pb_equal_columns .dsm_card_carousel_wrapper .dsm_card_carousel_child {
+    display: flex;
+    height: auto !important;
+    align-self: stretch;
+}
+.et_pb_equal_columns .dsm_card_carousel_child>div:first-of-type {
+    height: 100%;
+    align-self: stretch;
+  }
+.et_pb_equal_columns .dsm_card_carousel_child_vb_outer_wrapper {
+    height: 100%;
+}
+
+.et_pb_equal_columns .dsm_card_carousel_child_wrapper {
+    display: flex;
+    height: calc(100% - 240px);
+    flex-direction: column; 
+    justify-content: center;
+}
+
+*/
+.dsm_card_carousel_child_wrapper {
+    padding: 20px;
+}
+
+.dsm_card_carousel_child_image_wrapper {
+    padding: 0;
+    position: relative;
+    width: 100%;
+    line-height: 0;
+    border-style: solid;
+    border-width: 0;
+    justify-content: flex-start;
+    display: flex;
+}
+
+.dsm_card_carousel_child_img {
+    display: block;
+    align-self: center;
+}
+
+.dsm_card_carousel_image_stretch {
+    width: 100%;
+}
+
+/*Child*/
+.dsm_card_carousel_child>div:first-of-type {
+    border-style: solid;
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+}
+
+.dsm_card_carousel_child_badge_text {
+    position: absolute;
+    padding: 7px 15px;
+    max-width: 100%;
+    border-radius: 50px;
+    background-color: #fff;
+    font-size: 12px;
+    border-style: solid;
+    border-width: 0;
+    line-height: 1em;
+    z-index: 3;
+}
+
+.dsm_card_carousel_child_badge_top_right .dsm_card_carousel_child_badge_text {
+    top: 1rem;
+    right: 1rem;
+}
+
+.dsm_card_carousel_child_badge_top_left .dsm_card_carousel_child_badge_text {
+    top: 1rem;
+    left: 1rem;
+}
+
+.dsm_card_carousel_child_badge_top_center .dsm_card_carousel_child_badge_text {
+    top: 1rem;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+.dsm_card_carousel_child_badge_bottom_right .dsm_card_carousel_child_badge_text {
+    bottom: 1rem;
+    right: 1rem;
+}
+
+.dsm_card_carousel_child_badge_bottom_left .dsm_card_carousel_child_badge_text {
+    bottom: 1rem;
+    left: 1rem;
+}
+
+.dsm_card_carousel_child_badge_bottom_center .dsm_card_carousel_child_badge_text {
+    bottom: 1rem;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+.dsm_card_carousel_child_badge_center .dsm_card_carousel_child_badge_text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.dsm_card_carousel_child_badge_center_left {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.dsm_card_carousel_child_badge_center_left .dsm_card_carousel_child_badge_text {
+    left: 1rem;
+}
+
+.dsm_card_carousel_child_badge_center_right {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.dsm_card_carousel_child_badge_center_right .dsm_card_carousel_child_badge_text {
+    right: 1rem;
+}
+
+.dsm_card_carousel_child_image_background {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+/*Overlay*/
+.dsm_card_carousel_child .et_overlay {
+    border-width: 0;
+}
+
+.dsm_card_carousel_child_image_wrapper .dsm-card-icon-empty.et_overlay:before {
+    display: none;
+}
+
+.dsm-card-overlay-off .et_overlay {
+    opacity: 1;
+    z-index: 0;
+}
+
+.dsm-card-overlay-off:hover .et_overlay {
+    opacity: 0;
+}
+
+.dsm_card_carousel_child_image_wrapper .et_overlay {
+    display: flex;
+
+}
+
+.dsm_card_carousel_child_image_wrapper .et_overlay:before {
+    /*
+    top: 0;
+    left: 0;*/
+    margin: 0;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+/*Animation*/
+
+.dsm_card_carousel_child_image_animation .dsm_card_carousel_child_image_wrapper {
+    overflow: hidden;
+}
+
+.dsm_card_carousel_child_image_animation_zoom_in:hover .dsm_card_carousel_child_image_background {
+    transform: scale(1.5);
+}
+
+.dsm_card_carousel_child_image_animation_zoom_out .dsm_card_carousel_child_image_background {
+    transform: scale(1.5);
+}
+
+.dsm_card_carousel_child_image_animation_zoom_out:hover .dsm_card_carousel_child_image_background {
+    transform: scale(1);
+}
+
+.dsm_card_carousel_child_image_animation_zoom_in_n_rotate:hover .dsm_card_carousel_child_image_background {
+    transform: scale(1.5) rotate(25deg);
+}
+
+.dsm_card_carousel_child_image_animation_zoom_out_n_rotate .dsm_card_carousel_child_image_background {
+    transform: scale(1.5) rotate(25deg);
+}
+
+.dsm_card_carousel_child_image_animation_zoom_out_n_rotate:hover .dsm_card_carousel_child_image_background {
+    transform: scale(1) rotate(0);
+}

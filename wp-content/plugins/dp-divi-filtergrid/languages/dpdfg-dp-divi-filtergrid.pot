@@ -1,0 +1,2186 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Divi FilterGrid\n"
+"POT-Creation-Date: 2022-06-05 09:33-0400\n"
+"PO-Revision-Date: 2021-07-21 11:41-0400\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: Poedit 3.0.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: dp-divi-filtergrid.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+"X-Poedit-SearchPathExcluded-1: vendor\n"
+"X-Poedit-SearchPathExcluded-2: node_modules\n"
+
+#: admin/class-dp-dfg-admin.php:85
+msgid "License"
+msgstr ""
+
+#: admin/class-dp-dfg-admin.php:86
+msgid "Get support"
+msgstr ""
+
+#: includes/class-dp-dfg-license.php:14
+msgid ""
+"Please activate your Divi FilterGrid license to receive support and "
+"automatic updates."
+msgstr ""
+
+#: includes/class-dp-dfg-license.php:14
+msgid "Activation Page"
+msgstr ""
+
+#: includes/class-dp-dfg-license.php:52
+msgid "Divi FilterGrid License"
+msgstr ""
+
+#: includes/class-dp-dfg-license.php:55
+msgid "License Key"
+msgstr ""
+
+#: includes/class-dp-dfg-license.php:56
+msgid "Enter your license key"
+msgstr ""
+
+#: includes/class-dp-dfg-license.php:57
+msgid "License Status"
+msgstr ""
+
+#: includes/class-dp-dfg-license.php:59
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:156
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:190
+msgid "Active"
+msgstr ""
+
+#: includes/class-dp-dfg-license.php:61
+msgid "Deactivate License"
+msgstr ""
+
+#: includes/class-dp-dfg-license.php:63
+msgid "Inactive"
+msgstr ""
+
+#: includes/class-dp-dfg-license.php:65
+msgid "Activate License"
+msgstr ""
+
+#: includes/class-dp-dfg-license.php:137
+msgid "An error occurred on the license server, please try again."
+msgstr ""
+
+#: includes/class-dp-dfg-license.php:145
+#, php-format
+msgid "Your license key expired on %s."
+msgstr ""
+
+#: includes/class-dp-dfg-license.php:150
+msgid "Your license key has been disabled."
+msgstr ""
+
+#: includes/class-dp-dfg-license.php:153
+msgid "Invalid license."
+msgstr ""
+
+#: includes/class-dp-dfg-license.php:157
+msgid "Your license is not active for this URL."
+msgstr ""
+
+#: includes/class-dp-dfg-license.php:160
+#, php-format
+msgid "This appears to be an invalid license key for %s."
+msgstr ""
+
+#: includes/class-dp-dfg-license.php:163
+msgid "Your license key has reached its activation limit."
+msgstr ""
+
+#: includes/class-dp-dfg-license.php:166
+msgid "An error occurred with the license data, please try again."
+msgstr ""
+
+#: includes/class-dp-dfg-license.php:219
+msgid "An error occurred, please try again."
+msgstr ""
+
+#: includes/class-dp-dfg-license.php:257
+msgid "Thank you for purchasing and activating Divi FilterGrid."
+msgstr ""
+
+#. translators: the plugin name.
+#: includes/class-dp-dfg-updater.php:227
+#, php-format
+msgid "There is a new version of %1$s available."
+msgstr ""
+
+#: includes/class-dp-dfg-updater.php:233
+msgid "Contact your network administrator to install the update."
+msgstr ""
+
+#. translators: 1. opening anchor tag, do not translate 2. the new plugin version 3. closing anchor tag, do not translate.
+#: includes/class-dp-dfg-updater.php:238
+#, php-format
+msgid "%1$sView version %2$s details%3$s."
+msgstr ""
+
+#: includes/class-dp-dfg-updater.php:246
+#, php-format
+msgid "%1$sView version %2$s details%3$s or %4$supdate now%5$s."
+msgstr ""
+
+#: includes/class-dp-dfg-updater.php:257
+msgid "Update now."
+msgstr ""
+
+#: includes/class-dp-dfg-updater.php:493
+msgid "You do not have permission to install plugin updates"
+msgstr ""
+
+#: includes/class-dp-dfg-updater.php:493
+msgid "Error"
+msgstr ""
+
+#: includes/class-dp-dfg-utils.php:77
+msgid "Missing module data."
+msgstr ""
+
+#: includes/class-dp-dfg-utils.php:168
+#, php-format
+msgctxt "number of comments"
+msgid "%s Comment"
+msgid_plural "%s Comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-dp-dfg-utils.php:1170
+msgid "All"
+msgstr ""
+
+#: includes/class-dp-dfg-utils.php:1450
+msgid ""
+"Select one or more post types below. Use CTRL or SHIFT to select multiple."
+msgstr ""
+
+#: includes/class-dp-dfg-utils.php:1450
+msgid "Select one post type below."
+msgstr ""
+
+#: includes/class-dp-dfg-utils.php:1499
+msgid "Set Values"
+msgstr ""
+
+#: includes/class-dp-dfg-utils.php:1500
+msgid "Clean Values"
+msgstr ""
+
+#: includes/class-dp-dfg-utils.php:1501
+msgid "Exit"
+msgstr ""
+
+#: includes/class-dp-dfg-utils.php:1524
+msgid ""
+"Select one or more taxonomies below. Use CTRL or SHIFT to select multiple."
+msgstr ""
+
+#: includes/class-dp-dfg-utils.php:1524
+msgid "Select one taxonomy below."
+msgstr ""
+
+#: includes/class-dp-dfg-utils.php:1608
+msgid "Select one or more terms below. Use CTRL or SHIFT to select multiple."
+msgstr ""
+
+#: includes/class-dp-dfg-utils.php:1608
+msgid "Select one term below."
+msgstr ""
+
+#: includes/class-dp-dfg-utils.php:1692
+msgid ""
+"Begin typing the custom field you want to add and click the + to add it. "
+"Once added, you can optionally add a label before each custom field by "
+"typing in the input for that field. Leave input empty to display the custom "
+"field value without a label. Drag and drop custom fields to change their "
+"order."
+msgstr ""
+
+#: includes/class-dp-dfg-utils.php:1709
+msgid "Default template"
+msgstr ""
+
+#: includes/class-dp-dfg-utils.php:1778
+msgid ""
+"Select the taxonomy you want to add for each level and click the + to add "
+"it. Once added, you can optionally add a label before each level by typing "
+"in the first input for that level. Leave the first input empty to display "
+"levels without a label. The ALL text can be changed by typing in the second "
+"input for each level. Drag and drop levels to change their order."
+msgstr ""
+
+#: includes/class-dp-dfg-utils.php:1781
+msgid ""
+"Select the taxonomy you want to use and click the + to add it. Only one "
+"taxonomy can be used with the Parent/Child Taxonomy option. Once added, you "
+"can optionally add a label by typing in the first input. Leave the first "
+"input empty if you do not want to display a label. The ALL text can be "
+"changed by typing in the second input."
+msgstr ""
+
+#: includes/class-dp-dfg-utils.php:1796
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1080
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:2373
+msgid "None"
+msgstr ""
+
+#: includes/class-dp-dfg-utils.php:1797
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:153
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:176
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:187
+msgid "Default"
+msgstr ""
+
+#: includes/class-dp-dfg-utils.php:1798
+msgid "Midnight"
+msgstr ""
+
+#: includes/class-dp-dfg-utils.php:1799
+msgid "Left Vertical Filters"
+msgstr ""
+
+#: includes/class-dp-dfg-utils.php:1800
+msgid "Items in Overlay"
+msgstr ""
+
+#: includes/class-dp-dfg-utils.php:1801
+msgid "Zoom Image"
+msgstr ""
+
+#: includes/class-dp-dfg-utils.php:1802
+msgid "Library"
+msgstr ""
+
+#: includes/class-dp-dfg-utils.php:1816
+msgid "Original Image Uploaded"
+msgstr ""
+
+#: includes/class-dp-dfg-utils.php:1866
+msgid "Label text for"
+msgstr ""
+
+#: includes/class-dp-dfg-utils.php:1867
+msgid "All filter text for"
+msgstr ""
+
+#: includes/class-dp-dfg-utils.php:2008
+msgid "And error happen when trying to add this product to the cart."
+msgstr ""
+
+#: includes/class-dp-page.php:40
+msgid ""
+"Divi Plugins extend the functionality and features of the Divi Theme by "
+"Elegant Themes."
+msgstr ""
+
+#: includes/class-dp-page.php:51
+msgid "Need Support?"
+msgstr ""
+
+#: includes/class-dp-page.php:55
+msgid "Manage licenses"
+msgstr ""
+
+#: includes/class-dp-page.php:56
+msgid "Documentation"
+msgstr ""
+
+#: includes/class-dp-page.php:57
+msgid "FAQs"
+msgstr ""
+
+#: includes/class-dp-page.php:58
+msgid "Open a support ticket"
+msgstr ""
+
+#: includes/class-dp-page.php:59
+msgid "Need a custom Divi module?"
+msgstr ""
+
+#: includes/class-dp-page.php:60
+msgid "Affiliate program"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:14
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:21
+msgid "Divi FilterGrid"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:20
+msgid "XlEr9Qn-H5Y"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:73
+msgid "Query"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:77
+msgid "Posts Elements"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:81
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:523
+msgid "Filters"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:85
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:347
+msgid "Pagination"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:89
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:2298
+msgid "Search"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:93
+msgid "Video"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:97
+msgid "Cache"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:105
+msgid "Layout"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:109
+msgid "Popup"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:113
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:551
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1131
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1621
+msgid "Overlay"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:117
+msgid "Thumbnail Image"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:121
+msgid "Text"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:127
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:205
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:905
+msgid "Title"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:130
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:217
+msgid "Meta"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:133
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:230
+msgid "Content/Excerpt"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:136
+msgid "Custom Fields Labels"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:139
+msgid "Custom Fields Values"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:142
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:265
+msgid "Custom Content"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:147
+msgid "Filters Text"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:159
+msgid "Levels Labels"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:162
+msgid "Dropdown Placeholder"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:165
+msgid "Dropdown Tags"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:170
+msgid "Search Text"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:181
+msgid "Pagination Text"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:241
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:571
+msgid "Custom Field Label"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:253
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:575
+msgid "Custom Field Value"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:276
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:499
+msgid "Search Input"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:288
+msgid "Button/Select Filters"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:300
+msgid "Button/Select Active Filter"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:312
+msgid "Levels Label"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:323
+msgid "Select Placeholder"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:335
+msgid "Select Placeholder Active"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:359
+msgid "Pagination Active"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:373
+msgid "Read More Button"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:383
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1416
+msgid "Click Action Button"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:393
+msgid "Load More Button"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:403
+msgid "Trigger Filters Button"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:491
+msgid "Grid Container"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:495
+msgid "Search Container"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:503
+msgid "Search Icon"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:507
+msgid "Filters Container"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:511
+msgid "Levels Container"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:515
+msgid "Level Dropdown Label"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:519
+msgid "Level Dropdown Tag"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:527
+msgid "Active Filter"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:531
+msgid "Posts Container"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:535
+msgid "Standard Masonry Item Container"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:539
+msgid "Post Item Container"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:543
+msgid "Post Thumbnail Container"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:547
+msgid "Thumbnail"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:555
+msgid "Post Title Container"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:559
+msgid "Post Meta Container"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:563
+msgid "Post Content Container"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:567
+msgid "Custom Field Container"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:579
+msgid "Read More Button Container"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:583
+msgid "Custom Content Container"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:587
+msgid "Pagination Container"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:591
+msgid "Pagination Item"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:595
+msgid "Pagination Item Active"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:609
+msgid "Query Type"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:613
+msgid "Basic (posts only)"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:614
+msgid "Advanced (any custom post type)"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:615
+msgid "Archive Page (category, search, etc.)"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:616
+msgid "Related Posts (related to current post)"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:617
+msgid "Manual (post IDs)"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:618
+msgid "Custom (create your own query)"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:621
+msgid ""
+"Choose the type of query you would like to use to display your posts. Please "
+"review the <a target=\"_blank\" href=\"https://diviplugins.com/documentation/"
+"divi-filtergrid/query-type/\">documentation page</a> for details about each "
+"query type."
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:626
+msgid "Include Categories"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:633
+msgid "Choose which categories you would like to include in the feed."
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:638
+msgid "Use Current Post Type"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:642
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:671
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:744
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:986
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1008
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1029
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1047
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1136
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1577
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1610
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1626
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1642
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:2697
+msgid "On"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:643
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:672
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:745
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:987
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1009
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1030
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1048
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1135
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1578
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1609
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1625
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1641
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:2696
+msgid "Off"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:647
+msgid ""
+"Automatically gets the post type associated with the current archive page. "
+"Turn this option off to manually select a post type below."
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:652
+msgid "Select Post Types"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:662
+msgid "Click to select the post types you would like to display."
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:667
+msgid "Use Taxonomies"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:676
+msgid ""
+"Turn this option on to use taxonomies (categories, tags, etc.) to narrow the "
+"results. Leave this option off if you want to display all posts from the "
+"post type(s) above."
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:681
+msgid "Select Taxonomies"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:689
+msgid "Click to select the taxonomies you would like to include."
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:694
+msgid "Taxonomies Relation"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:698
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:727
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:775
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1857
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1926
+msgid "OR"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:699
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:728
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:774
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1858
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1927
+msgid "AND"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:706
+msgid ""
+"If you are using multiple taxonomies select the relation between all the "
+"taxonomies"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:711
+msgid "Select Terms"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:718
+msgid "Click to select the terms you would like to include."
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:723
+msgid "Terms Relation"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:735
+msgid ""
+"If you are using multiple terms select the relation between all terms of the "
+"same taxonomy."
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:740
+msgid "Include Child Terms"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:752
+msgid ""
+"Turn this option off to only display posts from the parent term. Leave this "
+"option on if you want to display posts from both parent and child terms."
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:757
+msgid "Exclude Taxonomies"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:765
+msgid ""
+"Click to select one or more taxonomies you would like to use to exclude "
+"posts."
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:770
+msgid "Exclude Taxonomies Relation"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:782
+msgid ""
+"If you are using multiple exclude taxonomies select the relation between all "
+"the exclude taxonomies"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:787
+msgid "Exclude Terms"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:795
+msgid ""
+"Click to select one or more terms you would like to use to exclude posts."
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:800
+msgid "Related Taxonomies"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:807
+msgid ""
+"Click to select the taxonomies you would like to use to determine if a post "
+"is related to the current post."
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:812
+msgid "Taxonomy Relation"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:816
+msgid "Any terms in any taxonomies."
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:817
+msgid "Any terms in all taxonomies."
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:818
+msgid "All terms in any taxonomies."
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:819
+msgid "All terms in all taxonomies."
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:825
+msgid ""
+"Choose how the posts should be related. Taxonomies used for the relation "
+"will be the ones selected in the Related Taxonomies field above."
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:830
+msgid "Include Posts by IDs"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:839
+msgid ""
+"Enter a comma-separated list of page, post or custom post type IDs you want "
+"to include."
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:844
+msgid "Post Number"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:857
+msgid ""
+"The number of posts to display per page or total if pagination is turned "
+"off. Use -1 to display all posts. If Query Type is set to Archive and "
+"pagination is on, value should match the value set in Divi Theme Options for "
+"those pages."
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:862
+msgid "Offset Number"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:873
+msgid "Choose how many posts you would like to offset by."
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:878
+msgid "Order"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:882
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:2046
+msgid "Ascending"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:883
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:2047
+msgid "Descending"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:895
+msgid "Choose to order posts in ascending or descending order."
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:900
+msgid "Order By"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:904
+msgid "Date"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:906
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:2069
+msgid "Slug"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:907
+msgid "Random"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:908
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:2070
+msgid "Menu Order"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:909
+msgid "Last Modified Date"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:910
+msgid "Comments Count"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:911
+msgid "Parent ID"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:912
+msgid "Post Type"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:913
+msgid "Author"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:914
+msgid "Search Relevance"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:915
+msgid "Custom Field"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:916
+msgid "Preserve post ID order"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:928
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:2079
+msgid "Choose a parameter to apply the order to."
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:933
+msgid "Custom Field Name"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:947
+msgid "Enter the custom field name."
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:952
+msgid "Custom Field Type"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:977
+msgid "Enter the custom field type."
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:982
+msgid "Show Private Posts"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:999
+msgid "Turn this option on to display private posts if user is logged in."
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1004
+msgid "Only Display Posts From Current Author"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1020
+msgid "Turn this option on to display posts only from the current author."
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1025
+msgid "Ignore Sticky Posts"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1038
+msgid ""
+"Turn this option on to ignore sticky posts. Currently sticky posts are not "
+"compatible with filters or pagination."
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1043
+msgid "Remove Current Post"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1057
+msgid ""
+"Turn on if you want to remove the current post. Useful if you want to show "
+"related content."
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1062
+msgid "Empty Results Text"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1065
+msgid "No results found."
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1066
+msgid "Enter the text you would like to display when no results are found."
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1076
+msgid "Click Action"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1081
+msgid "Link to post"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1082
+msgid "Show post in popup"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1083
+msgid "Show feature image in lightbox"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1084
+msgid "Show all feature images in lightbox gallery"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1085
+msgid "Open custom lightbox gallery"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1088
+msgid ""
+"Select the click action you would like to apply when the featured image, "
+"overlay or item is clicked. Don't apply to read more button and title link."
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1093
+msgid "Custom Field Name for Images"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1104
+msgid ""
+"Enter the custom field name containing the image or array of images you "
+"would like to load in the custom lightbox gallery. Leave this empty to use "
+"the <a href=\"https://diviplugins.com/documentation/divi-filtergrid/custom-"
+"lightbox/\">Custom Lightbox filter</a>."
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1107
+msgid "Show Featured Image"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1111
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1148
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1161
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1175
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1198
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1225
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1251
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1291
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1308
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1322
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1362
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1379
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1397
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1436
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1472
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1485
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1498
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1511
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1524
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1565
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1706
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1719
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1765
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1810
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1841
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1876
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1893
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1960
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:2016
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:2107
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:2211
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:2287
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:2331
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:2776
+msgid "Yes"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1112
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1149
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1162
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1176
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1199
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1226
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1252
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1292
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1309
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1323
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1363
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1380
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1396
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1435
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1471
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1484
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1497
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1510
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1523
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1564
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1705
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1718
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1764
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1809
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1840
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1875
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1892
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1959
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:2015
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:2106
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:2210
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:2286
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:2330
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:2775
+msgid "No"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1115
+msgid "This will turn thumbnails on and off."
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1120
+msgid "Thumbnail Size"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1126
+msgid "Select the thumbnail size."
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1139
+msgid ""
+"If enabled, an overlay color and icon will be displayed when a visitor "
+"hovers over the featured image of a post."
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1144
+msgid "Show Title"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1152
+msgid "Turn on or off the title."
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1157
+msgid "Add Link to Title"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1166
+msgid ""
+"Turn this option on if you want the title to link to the post or the custom "
+"URL."
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1171
+msgid "Show Post meta"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1179
+msgid "Turn on or off the post meta information."
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1184
+msgid "Meta Separator"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1189
+msgid ""
+"Enter any character including empty spaces to replace the default pipe "
+"separator between each meta element."
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1194
+msgid "Show Author"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1203
+msgid "Turn on or off the author link."
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1208
+msgid "Author Prefix"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1211
+msgid "By "
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1216
+msgid "Custom prefix displayed before author name."
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1221
+msgid "Show Date"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1230
+msgid "Turn the date on or off."
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1235
+msgid "Date Format"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1242
+msgid ""
+"Define the date format. <a target=\"_blank\" href=\"https://codex.wordpress."
+"org/Formatting_Date_and_Time\">Documentation on date and time formatting</a>."
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1247
+msgid "Show Terms"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1256
+msgid "Turn the terms links on or off (categories, tags, etc.)"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1261
+msgid "Show Terms Taxonomy"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1269
+msgid "Show terms of specific taxonomies. Let blank to show all terms."
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1274
+msgid "Terms Separator"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1282
+msgid ""
+"Enter any character including empty spaces to replace the default comma "
+"separator between each term."
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1287
+msgid "Add Links To Terms"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1299
+msgid "Turn this option on if you want to link each term's archive page"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1304
+msgid "Show Comment Count"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1313
+msgid "Turn comment count on or off."
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1318
+msgid "Show Content"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1326
+msgid "Turn the post excerpt or content on or off."
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1331
+msgid "Content Length"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1335
+msgid "Show Excerpt"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1336
+msgid "Show Full Content"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1340
+msgid "Show excerpt or full post content."
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1345
+msgid "Limit Excerpt"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1353
+msgid ""
+"Enter the number of characters you would like to limit the excerpt to for "
+"posts that do not have an excerpt. This will not apply to posts that have an "
+"excerpt."
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1358
+msgid "Limit Manually Added Excerpts"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1370
+msgid ""
+"Turn on to limit manually added excerpts to the number of characters entered "
+"above. Leave this option off to display the full excerpts for posts that "
+"have an excerpt defined."
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1375
+msgid "Strip HTML"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1387
+msgid ""
+"Remove HTML tags from excerpt. Turning this option off can break the grid "
+"layout if the excerpt is truncated in the middle of an HTML tag."
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1392
+msgid "Show Click Action Button"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1408
+msgid "Turn click action button on or off."
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1413
+msgid "Click Action Button Text"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1426
+msgid "Custom text for the click action button."
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1431
+msgid "Show Read More Button"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1439
+msgid "Turn read more button on or off."
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1444
+msgid "Read More Text"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1447
+msgid "Read More"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1449
+msgid "Custom text for the read more button."
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1454
+msgid "Link Target"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1458
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1545
+msgid "Same Window"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1459
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1546
+msgid "New Tab"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1462
+msgid "Here you can choose whether or not your link opens in a new window"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1467
+msgid "Show Custom Fields"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1475
+msgid "Turn custom fields on or off"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1480
+msgid "Custom Fields"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1493
+msgid "Show Custom Content"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1501
+msgid ""
+"Turn custom content on or off. Please review the <a target=\"_blank\" href="
+"\"https://diviplugins.com/documentation/divi-filtergrid/\">documentation "
+"page</a> for instructions on adding custom content."
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1506
+msgid "Custom Content / Custom Fields Wrapper"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1514
+msgid ""
+"Turn this option off to remove the \"dp-dfg-custom-content\" wrapper, "
+"allowing you to create your own wrappers for different pieces of content and "
+"more placement options using CSS Grid."
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1519
+msgid "Use Custom URLs"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1527
+msgid "Changes the URL to a custom field value set in each post."
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1532
+msgid "Custom Field for URL"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1535
+msgid ""
+"Enter custom field name (NOT the URL). The URL value needs to be set in each "
+"post using the custom field you input here. If no value is set, defaults to "
+"post URL."
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1540
+msgid "Custom URL Link Target"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1544
+msgid "Same as Link Target"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1550
+msgid "Here you can choose whether or not custom url opens in a new window"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1560
+msgid "Display Video Previews"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1568
+msgid ""
+"This will turn video previews on and off. Not compatible with all skins. For "
+"more information please visit the <a href=\"https://diviplugins.com/"
+"documentation/divi-filtergrid/video-preview/\" target=\"_blank"
+"\">documentation page</a>."
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1573
+msgid "Search Video Modules"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1584
+msgid ""
+"Turn this option on to enable searching for video modules to display the "
+"video preview."
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1589
+msgid "Video Click Action"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1593
+msgid "Play video"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1594
+msgid "Play video in popup"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1600
+msgid ""
+"Select the click action you would like to apply when the video or overlay is "
+"clicked."
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1605
+msgid "Override Click Action"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1616
+msgid "Trigger video action above instead of item click action."
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1632
+msgid ""
+"If enabled, an overlay color and icon will be displayed when a visitor "
+"hovers over the video preview."
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1637
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:2692
+msgid "Show Overlay Icon"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1649
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:2703
+msgid "Turn this option off to hide the icon in the overlay."
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1654
+msgid "Hover Icon Picker"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1664
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:2717
+msgid "Here you can define a custom icon for the overlay"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1669
+msgid "Overlay Icon Color"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1678
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:2751
+msgid "Here you can define a custom color for the overlay icon"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1683
+msgid "Hover Overlay Color"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1691
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:2761
+msgid "Here you can define a custom color for the overlay"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1701
+msgid "Show Filters"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1709
+msgid ""
+"Turn this option off if you do not want to give visitors the option to "
+"filter the results from the query above."
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1714
+msgid "AJAX Filters"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1725
+msgid ""
+"Always use AJAX for filtering. This will override the javascript based "
+"filtering that it is the default when pagination is off or the number of "
+"posts found is less that the number of post to show defined on the query "
+"options."
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1730
+msgid "Trigger Filters"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1734
+msgid "After each filter is clicked"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1735
+msgid "After clicking a button"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1736
+msgid "After last level is selected (Parent/Child Levels)"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1742
+msgid "Chose when to show the results of the filters."
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1747
+msgid "Filter Button Text"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1750
+msgid "Filter"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1755
+msgid "Custom text for the Filter button."
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1760
+msgid "Show Clear All Button"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1771
+msgid ""
+"Turn on to display a Clear All button which will reset all selected filters."
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1776
+msgid "Clear All Button Text"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1779
+msgid "Clear Filters"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1784
+msgid "Custom text for the Clear All button."
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1789
+msgid "Filters Layout"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1793
+msgid "Buttons"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1794
+msgid "Dropdown"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1800
+msgid "Chose which layout you want to use for the filters."
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1805
+msgid "Show Placeholder Active Filters"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1817
+msgid ""
+"Turn this option on if you want to show active terms for the filter dropdown "
+"layout."
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1822
+msgid "Dropdown Layout Text"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1825
+msgid "Select the terms"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1831
+msgid "Default text for the dropdown filter layout"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1836
+msgid "Use MultiSelect Filters"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1848
+msgid ""
+"Turn this option on if you would like to allow users to select more than one "
+"filter at a time."
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1853
+msgid "MultiSelect Filters Relation"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1866
+msgid ""
+"Choose if posts need to have only 1 active filter (OR) to display or if "
+"posts need to have all active filters (AND)."
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1871
+msgid "Use MultiLevel Filters"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1883
+msgid "Turn this option on to add more than one level of filters."
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1888
+msgid "Use Parent/Child Levels"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1901
+msgid ""
+"Turn this option on to automatically generate filter levels from child terms "
+"of a single taxonomy that supports hierarchical terms (post categories). For "
+"more information please visit the <a href=\"https://diviplugins.com/"
+"documentation/divi-filtergrid/hierarchical-filters/\" target=\"_blank"
+"\">documentation page</a>."
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1906
+msgid "Parent/Child Taxonomy"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1922
+msgid "MultiLevel Filters Relation"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1936
+msgid ""
+"Choose if posts need to have an active filter in each level (AND) or if "
+"posts need to have only 1 active filter in any level (OR)."
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1941
+msgid "MultiLevel Taxonomies"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1955
+msgid "Use Custom Filters"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1964
+msgid ""
+"Turn this option on to bypass the filter options below and add the filters "
+"manually using our Custom Filters filter. For more information and examples, "
+"please visit the documentation page at <a href=\"https://diviplugins.com/"
+"documentation/divi-filtergrid/custom-filters/\" target=\"_blank\">Divi "
+"Plugins</a>."
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1969
+msgid "Filter Taxonomies"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1979
+msgid ""
+"Click to select the taxonomies you would like to include in the filters."
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1984
+msgid "Filter Terms"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1993
+msgid ""
+"Click to select the terms you would like to include in the filters. Leave "
+"this field empty if you would like to include all terms from the taxonomies "
+"chosen above."
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:1998
+msgid "Default Filter"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:2006
+msgid ""
+"Click to select the term you want active by default when the page first "
+"loads. Leave blank to display all posts from the query above by default. "
+"This option is not currently compatible with the Cache Filter & Pagination "
+"Results option. Cache will be disabled if a default filter is set."
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:2011
+msgid "Hide All Filter Button"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:2027
+msgid "All Text"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:2037
+msgid "Here you can change the default text used for the All filter button."
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:2042
+msgid "Filters Order"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:2058
+msgid "Choose to order filters in ascending or descending order."
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:2063
+msgid "Filters Order By"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:2067
+msgid "ID"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:2068
+msgid "Name"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:2071
+msgid "Hierarchy"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:2072
+msgid "Custom Order"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:2084
+msgid "Filters Custom"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:2092
+msgid ""
+"Enter a comma-separated list of filters name. Filters will appear in the "
+"order you enter them."
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:2102
+msgid "Activate Pagination"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:2110
+msgid ""
+"Turn this option off if you want to limit the number of posts returned to "
+"the Post Number value above. Leave this option on if you want to give users "
+"the ability to load more posts."
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:2115
+msgid "Pagination Type"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:2119
+msgid "Paged"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:2120
+msgid "Load more button"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:2121
+msgid "Load more on scroll"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:2125
+msgid "Select the method to load additional posts."
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:2130
+msgid "Load More Text"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:2133
+msgid "Load More"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:2138
+msgid "Custom text for the load more button."
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:2143
+msgid "Previous Icon"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:2156
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:2237
+msgid "Next Icon"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:2169
+msgid "Previous Text"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:2181
+msgid "Next Text"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:2193
+msgid "Pagination Pages"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:2201
+msgid ""
+"Number of pages to show before and after the active page on the pagination."
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:2206
+msgid "Activate First/Last Buttons"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:2218
+msgid "Add first and last page buttons to the pagination."
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:2223
+msgid "First Icon"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:2251
+msgid "First Text"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:2264
+msgid "Last Text"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:2282
+msgid "Activate Search"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:2290
+msgid ""
+"Turn this option on if you want to give visitors the ability to search "
+"results"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:2295
+msgid "Placeholder Text"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:2302
+msgid "Custom text for search placeholder"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:2307
+msgid "Search Position"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:2311
+msgid "Above Filters"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:2312
+msgid "Below Filters"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:2313
+msgid "Left of Filters  (dropdown filters only)"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:2314
+msgid "Right of Filters  (dropdown filters only)"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:2321
+msgid "Choose to display the search box above or below the filters"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:2326
+msgid "Order Search Results by Relevance"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:2337
+msgid ""
+"Leave this option on to order the search results by search term relevance. "
+"Turn this option off to order the search results by the Order By value set "
+"in the Query Options section."
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:2347
+msgid "Dropdown Filters Columns"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:2358
+msgid "Define how many columns each row of filters should have."
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:2363
+msgid "Select a Layout"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:2367
+msgid "Grid"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:2368
+msgid "List"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:2369
+msgid "Fullwidth"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:2370
+msgid "Grid Masonry"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:2371
+msgid "Flex"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:2372
+msgid "Standard Masonry"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:2376
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:2575
+msgid "Choose a layout to display the posts."
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:2381
+msgid "Select a Skin"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:2386
+msgid "Select a skin to apply different visual effects to the posts."
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:2391
+msgid "Image Min Width"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:2406
+msgid ""
+"Define the minimum width of the image. The image will never be smaller than "
+"this value."
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:2411
+msgid "Image Max Width"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:2426
+msgid ""
+"Define the maximum width of the image in relation to the total width of the "
+"item. The image will always be as wide as this value unless this value is "
+"smaller than the minimum width set above."
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:2431
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:2456
+msgid "Items Width"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:2451
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:2476
+msgid ""
+"Define the width of each post item in the grid. This value is combined with "
+"the Column & Row Gutter value below to determine how many columns the grid "
+"will have for each screen size."
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:2481
+msgid "Column Gutter"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:2502
+msgid "Define the gap between each column in the grid."
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:2507
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:2533
+msgid "Row Gutter"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:2528
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:2553
+msgid "Define the gap between each row in the grid"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:2558
+msgid "Justify Items"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:2562
+msgid "Space Between"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:2563
+msgid "Space Around"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:2564
+msgid "Space Evenly"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:2565
+msgid "Center"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:2566
+msgid "Flex Start"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:2567
+msgid "Flex End"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:2580
+msgid "Grid Font Size"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:2599
+msgid ""
+"All font sizes, padding, margins, gaps, etc. are based on the grid font "
+"size. Changing this value will change these values throughout the entire "
+"grid."
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:2606
+msgid "Popup Template"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:2614
+msgid ""
+"The Default template will display the post content in the popup window "
+"similar to how it would display when the post is viewed directly. You can "
+"also select a layout from your Divi Library. Only layouts categorized under "
+"the <strong>DFG Popup</strong> category will be available to select below. "
+"For more information, please see the <a href=\"https://diviplugins.com/"
+"documentation/divi-filtergrid/popup-template/\" target=\"_blank"
+"\">documentation</a>."
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:2620
+msgid "Popup Width"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:2633
+msgid "Set the width of the popup window."
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:2638
+msgid "Popup Maximum Width"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:2649
+msgid "Set the maximum width of the popup window."
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:2654
+msgid "Popup Height"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:2667
+msgid "Set the height of the popup window."
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:2672
+msgid "Popup Overlay Color"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:2680
+msgid "Popup Content CSS"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:2685
+msgid "CSS added here will target the content of the popup window."
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:2708
+msgid "Icon Picker"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:2722
+msgid "Icon Size"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:2743
+msgid "Icon Color"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:2756
+msgid "Hover Color"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:2771
+msgid "Cache Filter & Pagination Results"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:2779
+msgid ""
+"Turn this option on to enable filter and pagination caching. Please review "
+"the <a href=\"https://diviplugins.com/documentation/divi-filtergrid/caching/"
+"\">documentation page</a> for more information on this option."
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:2789
+msgid "Search Input Background"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:2797
+msgid "Search Icon Background"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:2805
+msgid "Grid Item Background"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:2813
+msgid "Filters Background"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:2821
+msgid "Active Filter Background"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:2829
+msgid "Pagination Background"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:2837
+msgid "Pagination Active Background"
+msgstr ""
+
+#: includes/modules/DpDiviFilterGrid/DpDiviFilterGrid.php:3224
+msgid "Next Page"
+msgstr ""
+
+#: templates/dp-dfg-popup-template.php:85
+msgid "Pages:"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://diviplugins.com/downloads/divi-filtergrid/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Create a beautiful grid layout of any post type with full column control. "
+"Includes options to display filters, true ajax pagination or load more, and "
+"skin options to easily modify the appearance of each grid item with one "
+"click."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "DiviPlugins"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://diviplugins.com"
+msgstr ""

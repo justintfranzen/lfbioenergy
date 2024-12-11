@@ -1,0 +1,164 @@
+##############################
+# THIEL WordPress .gitignore
+# Version: 1.0.3
+##############################
+
+# Ships with Wordpress Stuff
+wp-content/themes/twenty*
+wp-content/plugins/hello.php
+wp-content/upgrade
+wp-content/tmp
+wp-content/blogs.dir
+/readme.html
+/readme.*.html
+/license.txt
+/wp-config-sample.php
+
+# Ignore Uploads
+wp-content/uploads
+
+# Backup Plugin Stuff
+wp-content/backup
+wp-content/backups
+wp-content/backup-db
+wp-content/backup*
+wp-content/updraft
+wp-content/managewp
+wp-snapshots
+wp-content/ai1wm-backups
+
+# OSX Specific
+__MACOSX
+.AppleDouble
+.LSOverride
+*.DS_Store
+
+# Server Config stuff
+/nginx.conf
+/php.ini
+.user.ini
+
+# Server folders
+error
+stats
+cgi-bin
+nbproject
+temp
+
+# Eshop
+wp-content/eshop_downloads
+
+# Duplicator stuff
+/web.config
+/web.config.*
+/index.html
+/wp-tests-config.php
+
+# Wordfence Stuff
+wordfence-waf.php
+wp-content/wflogs
+wp-content/wfcache
+wp-content/plugins/wordfence/tmp
+
+# Cache stuff
+wp-content/advanced-cache.php
+wp-content/wp-cache-config.php
+wp-content/w3tc-config
+wp-content/db.php
+wp-content/object-cache.php
+wp-content/object-cache.php.*
+wp-content/cache
+wp-content/plugins/bwp-minify/cache
+wp-content/et-cache
+wp-content/wp-rocket-config
+
+# Webmaster Verification Stuff
+google*.html
+yandex_*.html
+
+# Per install files
+wp-config.php
+thiel-deploy.php
+
+# Build Stuff
+node_modules
+
+# Lint Caches
+.eslintcache
+.stylelintcache
+.phplint-cache
+
+# Enviroment Stuff
+.env
+
+# Log stuff:
+sitemap.*
+*.log
+*.sql
+*.sqlite
+*.sass-cache
+error_log
+
+# Forwards / Aliases / Subdomains:
+/forwards
+/aliases
+/subdomains
+
+# Hidden files:
+/.htaccess
+/.htaccess*
+/.htaccess.*
+*[Tt]humbs.db
+ehthumbs.db
+*.Trashes
+*.sass-cache*
+*~imageoptim*
+.idea
+.idea/*
+.ftpquota
+.well-known/
+.well-known
+.maintenance
+~*
+
+# Composer
+/vendor
+
+# Generated dev files:
+*.css.map
+
+# Package files:
+# it's better to unpack these files and commit the raw source
+# git has its own built in compression methods
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# IDE Folders / Files
+.vscode/settings.json
+*.code-workspace
+*.sublime-project
+*.sublime-workspace
+*.komodoproject
+
+
+# Optional Stuff. Uncomment if needed.
+
+# Re-include files previously blocked:
+# !wp-content/uploads/.htaccess
+
+# GoDaddy Managed WP Rules:
+# wp-admin/
+# wp-content/mu-plugins/gd-system-plugin.php
+# wp-content/mu-plugins/
+# wp-includes/
+# /wp-*.php
+# /index.php
+# gd-config.php
+
+# Site Specific Rules:

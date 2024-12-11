@@ -1,0 +1,17 @@
+.dsm-step-flow-container .dsm-steps-image-icon-wrapper {
+  display: inline-block;
+  position: relative;
+}
+
+.dsm-step-flow-container .dsm_icon {
+  line-height: 1em;
+  display: inline-block;
+  overflow: visible !important;
+}
+
+.dsm-step-flow-container .dsm-step-badge {
+  position: absolute;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  line-height: 1em;
+}

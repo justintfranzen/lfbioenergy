@@ -1,0 +1,30 @@
+{
+  "name": "lfbioenergy",
+  "version": "1.0.0",
+  "description": "lfbioenergy Website",
+  "main": "index.php",
+  "scripts": {
+    "build": "npm run build --prefix ./wp-content/themes/lfbioenergy-divi-child",
+    "dev": "npm run dev --prefix ./wp-content/themes/lfbioenergy-divi-child",
+    "postinstall": "npm install ./wp-content/themes/lfbioenergy-divi-child",
+    "lint": "npm run lint --prefix ./wp-content/themes/lfbioenergy-divi-child",
+    "lint:fix": "npm run lint:fix --prefix ./wp-content/themes/lfbioenergy-divi-child"
+  },
+  "repository": {
+    "type": "git",
+    "url": "TODO"
+  },
+  "author": "Justin Franzen",
+  "license": "UNLICENSED",
+  "private": true,
+  "engineStrict": true,
+  "engines": {
+    "node": ">=16",
+    "npm": ">=8"
+  },
+  "dependencies": {
+    "lfbioenergy-divi-child": "file:wp-content/themes/lfbioenergy-divi-child",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  }
+}
