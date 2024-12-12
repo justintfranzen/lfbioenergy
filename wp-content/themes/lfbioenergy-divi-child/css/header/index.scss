@@ -43,6 +43,19 @@
         height: 1em;
       }
     }
+
+      .sub-menu {
+      li {
+        margin: 0;
+
+        a {
+          padding: 0.5em 0 0.5em 3em !important;
+          width: 100%;
+          display: block;
+          margin: 0;
+        }
+      }
+    }
   }
 
   li {
@@ -59,20 +72,6 @@
         background: #c7da74;
         color: #3b804d;
         font-weight: 600;
-      }
-    }
-
-    .sub-menu {
-      li {
-        margin: 0.5em 0;
-        margin: 0;
-
-        a {
-          padding: 0.5em 0 0.5em 3em !important;
-          width: 100%;
-          display: block;
-          margin: 0;
-        }
       }
     }
   }
