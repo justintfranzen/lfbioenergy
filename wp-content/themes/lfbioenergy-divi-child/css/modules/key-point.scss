@@ -1,0 +1,97 @@
+.et_pb_section {
+  &.community-key-points {
+    padding-top: 0;
+    margin-top: -5em;
+    background: none;
+    padding-bottom: 6em;
+    z-index: 1;
+
+    &::before {
+      content: '';
+      background-image: url('/wp-content/themes/lfbioenergy-divi-child/assets/img/grey-wave-green-accents.png');
+      width: 100%;
+      height: 100vh;
+      background-size: 100% 105%;
+      position: absolute;
+      background-repeat: no-repeat;
+      z-index: 0;
+      top: -5em;
+
+      @media (max-width: 1200px) {
+        height: 118vh;
+      }
+    }
+
+    .key-point {
+      display: flex;
+      align-items: end;
+      border-bottom: 2px solid #99c45a;
+      margin-top: 3em;
+    }
+  }
+
+  &.community-cta {
+    padding: 8em 0 10em;
+
+    &::before {
+      content: '';
+      background-image: url('/wp-content/themes/lfbioenergy-divi-child/assets/img/grey-wave-no-accents.png');
+      width: 100%;
+      height: 100vh;
+      background-size: 100% 120%;
+      position: absolute;
+      background-repeat: no-repeat;
+      z-index: 0;
+      top: -5em;
+
+      @media (max-width: 1200px) {
+        top: 5em;
+        background-size: 100%;
+      }
+    }
+
+    .et_pb_row {
+      position: relative;
+      top: 4em;
+    }
+  }
+
+  &.audience-content {
+    padding-bottom: 10em;
+    margin-bottom: -5em;
+
+    .audience-description {
+      .et_pb_text_inner {
+        font-size: 26px;
+        font-weight: 200;
+        line-height: 1.2;
+      }
+    }
+
+    img {
+      width: 20em !important;
+    }
+
+    .key-point {
+      display: flex;
+      align-items: end;
+      border-bottom: 2px solid #99c45a;
+      margin-top: 3em;
+
+      h3 {
+        color: #3b804d;
+        font-size: 24px;
+        font-weight: 900;
+        padding-bottom: 0;
+      }
+
+      .description {
+        .et_pb_text_inner {
+          color: #4d4d4d;
+          font-size: 22px;
+          font-weight: 600;
+        }
+      }
+    }
+  }
+}

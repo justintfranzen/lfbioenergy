@@ -6,6 +6,7 @@ import { initHeader } from './global-elements/header';
 // import { initFooterSubscribe } from './global-elements/footer-subscribe';
 
 // Modules
+import { initRemoveFooterCta } from './modules/footer-cta';
 
 // -----------------------------------------------------------------------------
 
@@ -16,5 +17,6 @@ const init = () => {
   // initFooterSubscribe();
 
   // Modules
+  initRemoveFooterCta();
 };
 init();

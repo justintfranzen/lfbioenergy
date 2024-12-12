@@ -1,5 +1,6 @@
 .et_pb_section {
-  &.footer-cta {
+  &.footer-cta,
+  &.contact {
     .gform-body {
       &.gform_body {
         .gform_fields {
@@ -20,6 +21,13 @@
             }
           }
         }
+      }
+    }
+
+    &.contact {
+      .et_pb_row {
+        width: 1350px;
+        max-width: 100%;
       }
     }
   }

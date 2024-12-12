@@ -6,12 +6,18 @@
     &::before {
       content: '';
       background-image: url('/wp-content/themes/lfbioenergy-divi-child/assets/img/green-wave.png');
-      height: 90vh;
+      height: 100vh;
       background-size: 100% 100%;
       position: absolute;
       background-repeat: no-repeat;
       z-index: 2;
       background-position: center;
+    }
+
+    .et_pb_row {
+      &:first-child {
+        padding-top: 7em !important;
+      }
     }
 
     h2 {
