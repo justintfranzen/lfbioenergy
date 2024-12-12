@@ -18,11 +18,130 @@
 
   @media (max-width: 980px) {
     display: block;
+    left: 100%;
+    position: fixed;
+    background: #3b804d;
+    z-index: 2;
+    top: 0;
+    padding-top: 12em;
+    width: 100%;
+    height: 100vh;
+    overflow-x: scroll;
+    transition: 0.4s all;
+  }
+
+  .menu-item-has-children {
+    a {
+      &::after {
+        content: '';
+        background-image: url('/wp-content/themes/lfbioenergy-divi-child/assets/img/dropdown-arrow.png');
+        background-size: 1.2em;
+        background-position: center;
+        margin-top: 0.3em;
+        background-repeat: no-repeat;
+        width: 2em;
+        height: 1em;
+      }
+    }
+  }
+
+  li {
+    a {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+      color: #fff;
+      font-size: 18px;
+      padding: 0.5em 2em;
+
+      &:hover {
+        background: #c7da74;
+        color: #3b804d;
+        font-weight: 600;
+      }
+    }
+
+    .sub-menu {
+      li {
+        margin: 0.5em 0;
+        margin: 0;
+
+        a {
+          padding: 0.5em 0 0.5em 3em !important;
+          width: 100%;
+          display: block;
+          margin: 0;
+        }
+      }
+    }
+  }
+
+  .sub-menu {
+    max-height: 0;
+    overflow: hidden;
+    transition: 0.4s all;
+  }
+
+  .sub-menu-active {
+    max-height: 15em !important;
+  }
+
+  .menu-active {
+    &::after {
+      transform: rotate(180deg);
+      transition-duration: 0.3s;
+    }
+  }
+}
+
+.mobile-menu-toggle {
+  position: absolute;
+  z-index: 999;
+  right: 3em;
+  top: 4em;
+}
+
+.open {
+  left: 0 !important;
+}
+
+.bar1,
+.bar2,
+.bar3 {
+  display: none;
+
+  @media (max-width: 980px) {
+    display: block;
+    width: 30px;
+    height: 4px;
+    background-color: #c7d974;
+    margin: 4px 0;
+    transition: 0.4s;
+  }
+}
+
+.close {
+  .bar1 {
+    transform: rotate(43deg) translate(7px, 7.5px);
+  }
+
+  .bar2 {
+    opacity: 0;
+  }
+
+  .bar3 {
+    transform: rotate(-42deg) translate(4px, -4px);
   }
 }
 
 #main-header {
   top: 5em !important;
+
+  @media (max-width: 980px) {
+    top: 3em !important;
+    z-index: 3;
+  }
 
   .et_menu_container {
     width: 1500px;
@@ -46,6 +165,10 @@
 #et-top-navigation {
   @media (max-width: 1400px) {
     padding-left: 0 !important;
+  }
+
+  @media (max-width: 980px) {
+    display: none !important;
   }
 
   .nav {

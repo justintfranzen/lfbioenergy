@@ -3,6 +3,10 @@ html {
   overflow-x: hidden;
 }
 
+body {
+  font-family: Poppins, helvetica, sans-serif;
+}
+
 @font-face {
   font-family: Poppins;
   src: url('../fonts/Poppins-Regular.ttf') format('truetype'); /* Load .ttf font */

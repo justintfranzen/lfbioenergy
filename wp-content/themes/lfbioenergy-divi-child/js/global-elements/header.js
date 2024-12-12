@@ -18,8 +18,8 @@ export const initHeader = () => {
   for (let i = 0; i < subMenuToggle.length; i++) {
     subMenuToggle[i].addEventListener('click', () => {
       const menu = subMenuToggle[i].parentNode.querySelector(':scope > ul');
-      menu.classList.toggle('open-sub-menu');
-      subMenuToggle[i].classList.toggle('active-menu');
+      menu.classList.toggle('sub-menu-active');
+      subMenuToggle[i].classList.toggle('menu-active');
     });
   }
 
