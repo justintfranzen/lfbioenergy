@@ -38,11 +38,4 @@ export const initHeader = () => {
       }
     };
   }
-
-  const navSubMen = document.querySelectorAll(
-    '#et-top-navigation .menu-item-has-children a',
-  );
-  for (let i = 0; i < navSubMen.length; i++) {
-    navSubMen[i].classList.add('submenu-arrow');
-  }
 };

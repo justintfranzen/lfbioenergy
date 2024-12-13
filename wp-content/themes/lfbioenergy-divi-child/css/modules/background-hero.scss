@@ -18,6 +18,20 @@
       background-repeat: no-repeat;
       position: absolute;
       z-index: 1;
+
+      @media (max-width: 980px) {
+        height: 15%;
+        background-size: 100% 100%;
+      }
+
+      @media (max-width: 500px) {
+        height: 12%;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        position: absolute;
+        z-index: 1;
+        margin-top: 0;
+      }
     }
   }
 

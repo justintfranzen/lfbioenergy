@@ -4,6 +4,10 @@
     padding-top: 8em;
     padding-bottom: 0;
 
+    @media (max-width: 980px) {
+      padding-top: 4em;
+    }
+
     &::before {
       content: '';
       background-image: url('/wp-content/themes/lfbioenergy-divi-child/assets/img/white-wave.png');
@@ -14,10 +18,22 @@
       background-position: center;
       width: 100%;
       height: 100%;
+
+      @media (max-width: 980px) {
+        margin-top: -8em;
+      }
+
+      @media (max-width: 500px) {
+        background-size: 150% 100%;
+      }
     }
 
     .et_pb_row {
       padding-top: 8em;
+
+      @media (max-width: 980px) {
+        padding-top: 0;
+      }
     }
   }
 }

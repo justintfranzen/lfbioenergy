@@ -178,7 +178,8 @@
   .nav {
     display: flex;
 
-    .submenu-arrow {
+    .submenu-arrow,
+    .menu-item-has-children {
       &::before {
         content: '';
         background-image: url('/wp-content/themes/lfbioenergy-divi-child/assets/img/dropdown-arrow.png');
@@ -186,13 +187,22 @@
         position: absolute;
         width: 2em;
         height: 1em;
-        right: -1em;
+        right: -0.3em;
         background-size: 1em;
-        top: 0.9em;
+        background-position: center;
+        top: 0.8em;
       }
 
-      &::after {
-        display: none;
+      &:hover {
+        &::before {
+          transform: rotate(180deg);
+        }
+      }
+
+      a {
+        &::after {
+          display: none;
+        }
       }
     }
 

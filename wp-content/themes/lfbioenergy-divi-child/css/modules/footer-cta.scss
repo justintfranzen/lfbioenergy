@@ -13,6 +13,11 @@
       z-index: 2;
       background-position: center;
       height: 65vh;
+
+      @media (max-width: 500px) {
+        background-size: 145% 100%;
+        height: 80vh;
+      }
     }
 
     .et_pb_row {
@@ -20,6 +25,19 @@
       align-items: center;
       position: relative;
       top: 8em;
+
+      @media (max-width: 980px) {
+        flex-direction: column;
+        top: 10em;
+      }
+
+      @media (max-width: 768px) {
+        top: 6em;
+      }
+
+      @media (max-width: 500px) {
+        top: 8em;
+      }
 
       p {
         color: #fff;

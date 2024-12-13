@@ -6,6 +6,14 @@
       text-align: center;
       color: #e1e2da;
       font-weight: 200;
+
+      @media (max-width: 980px) {
+        font-size: 65px;
+      }
+
+      @media (max-width: 500px) {
+        font-size: 46px;
+      }
     }
 
     .et_pb_text_inner {
@@ -14,6 +22,14 @@
       color: #e1e2da;
       text-align: center;
       line-height: 1.5;
+
+      @media (max-width: 980px) {
+        font-size: 22px;
+      }
+
+      @media (max-width: 500px) {
+        font-size: 20px;
+      }
     }
   }
 }
