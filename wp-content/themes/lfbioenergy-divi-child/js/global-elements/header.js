@@ -26,7 +26,7 @@ export const initHeader = () => {
   const mainNav = document.querySelector('#main-header');
   const nainNavFixed = document.querySelector('.et_fixed_nav #main-header');
   const bodyContent = document.querySelector('#et-main-area');
-  const mainHeader = document.querySelector('#main-header');
+
   if (mainNav) {
     // Handle scroll event for removing the class
     window.onscroll = function () {
@@ -34,7 +34,6 @@ export const initHeader = () => {
         mainNav.classList.remove('et-fixed-header');
         nainNavFixed.classList.add('nav-scroll');
         bodyContent.classList.add('body-position');
-        mainHeader.classList.add('nav-height');
       }
     };
   }

@@ -59,6 +59,14 @@
         top: -7em;
         background-size: 150% 100%;
       }
+
+      @media (max-width: 500px) {
+        background-size: 150% 110%;
+      }
+
+      @media (max-width: 390px) {
+        height: 92vh;
+      }
     }
 
     .et_pb_row {

@@ -13,6 +13,10 @@
     .et_pb_row {
       display: flex;
 
+      @media (max-width: 980px) {
+        flex-direction: column;
+      }
+
       &:last-child {
         .et_pb_column {
           &:first-child {
@@ -20,6 +24,10 @@
               .et_pb_blurb_container {
                 position: relative;
                 top: 3.5em;
+
+                @media (max-width: 980px) {
+                  top: 0;
+                }
               }
             }
           }
@@ -29,6 +37,10 @@
       .et_pb_column {
         display: flex;
         flex: 1;
+
+        @media (max-width: 980px) {
+          justify-content: center;
+        }
 
         .et_pb_blurb {
           background: rgb(255 255 255 / 45%);
@@ -53,6 +65,14 @@
               font-size: 54px;
               color: #3b804d;
               font-weight: 600;
+
+              @media (max-width: 1250px) {
+                font-size: 44px;
+              }
+
+              @media (max-width: 980px) {
+                font-size: 38px;
+              }
             }
 
             .et_pb_blurb_description {
