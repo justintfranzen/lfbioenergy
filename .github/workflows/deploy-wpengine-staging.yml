@@ -1,0 +1,45 @@
+name: Staging - WP Engine deploy
+on:  
+  push:    
+    branches: 
+    - staging
+
+env:
+  NODE_VERSION: 16
+  NPM_VERSION: 8
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Git checkout
+      uses: actions/checkout@v2
+
+    - name: Set up Node
+      uses: actions/setup-node@v3
+      with:
+        node-version: ${{ env.NODE_VERSION }}
+
+    - name: Set up NPM
+      run: npm install -g npm@${{ env.NPM_VERSION }}
+
+    - name: NPM install
+      run: npm ci
+
+    - name: NPM lint
+      run: npm run lint
+
+    - name: NPM build
+      run: npm run build
+      
+    - name: Cleanup
+      run: rm -rf node_modules **/*/node_modules package.json **/*/package.json package-lock.json **/*/package-lock.json
+
+    - name: Sanity check files
+      run: ls -la
+
+    - name: GitHub Action Deploy to WP Engine
+      uses: wpengine/github-action-wpe-site-deploy@v3
+      with:
+        WPE_SSHG_KEY_PRIVATE: ${{ secrets.WPE_SSH_KEY_PRIVATE }}
+        WPE_ENV: ${{ secrets.WPE_ENVIRONMENT_STAGING }}
