@@ -35,23 +35,26 @@
     }
   }
 
-  &.bg-image-accent {
-    height: 78vh;
+  &.main-hero {
+    height: 90vh;
     display: flex;
 
-    &::before {
-      content: '';
-      background-image: url('../assets/img/INTERDEPENDENCE-LF-BioEnergy_WebAssets-1920x1920-Top_2.png');
-      background-size: 100% 100%;
-      background-repeat: no-repeat;
-      background-position: center;
-      height: 85vh;
-      width: 100%;
-      position: absolute;
-      top: 0;
-      opacity: 0.85;
-      z-index: 1;
+    &::after {
+         content: "";
+        background-image: url(/wp-content/themes/lfbioenergy-divi-child/assets/img/home-hero-accent.png);
+        width: 100%;
+        height: 20%;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        z-index: 1;
+        bottom: -8em;
     }
+
+    .et_pb_row {
+      background: rgba(59,128,77, .95);
+      border-radius: 10px;
+      padding: 3em 5em;
 
     .et_pb_bottom_inside_divider {
       background-size: 99% 83px;
@@ -82,20 +85,7 @@
         font-size: 20px;
       }
     }
-  }
-
-  &.curve-boottom {
-    &::before {
-      content: '';
-      position: absolute;
-      bottom: -20px; /* Adjust for curve depth */
-      left: 0;
-      width: 100%;
-      height: 30px; /* Adjust to control the curve's size */
-      background: white; /* Change to match your background color */
-      border-radius: 50%;
-      transform: scaleX(1.5);
-    }
+}
   }
 }
 
