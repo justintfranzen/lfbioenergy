@@ -3,53 +3,55 @@
     padding-bottom: 8em;
 
     .et_pb_row {
-      display: flex;
-
-      .et_pb_column {
+      &.et_pb_row_4col {
         display: flex;
-        height: 50vh;
 
-        .et_pb_blurb {
-          background: #fff;
-          border-radius: 20px;
-          padding: 2em;
+        .et_pb_column {
           display: flex;
+          height: 50vh;
 
-          .et_pb_main_blurb_image img {
-            border-radius: 50%;
-          }
+          .et_pb_blurb {
+            background: #fff;
+            border-radius: 20px;
+            padding: 2em;
+            display: flex;
 
-          .et_pb_module_header {
-            color: #3b804d;
-            font-size: 24px;
-            text-align: center;
-            font-weight: 800;
-          }
+            .et_pb_main_blurb_image img {
+              border-radius: 50%;
+            }
 
-          .et_pb_blurb_description {
-            color: #4d4d4d;
-            font-size: 14px;
-            font-weight: 200;
-            text-align: center;
-          }
+            .et_pb_module_header {
+              color: #3b804d;
+              font-size: 24px;
+              text-align: center;
+              font-weight: 800;
+            }
 
-          .bio-btn {
-            color: #3b804d;
-            border: 2px solid #3b804d;
-            font-size: 14px;
-            font-weight: 600;
-            display: block;
-            padding: 1em 0;
-            margin: 0 auto;
-            position: absolute;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            transition: 0.3s all;
+            .et_pb_blurb_description {
+              color: #4d4d4d;
+              font-size: 14px;
+              font-weight: 200;
+              text-align: center;
+            }
 
-            &:hover {
-              background: #3b804d;
-              color: #fff;
+            .bio-btn {
+              color: #3b804d;
+              border: 2px solid #3b804d;
+              font-size: 14px;
+              font-weight: 600;
+              display: block;
+              padding: 1em 0;
+              margin: 0 auto;
+              position: absolute;
+              bottom: 0;
+              left: 0;
+              right: 0;
+              transition: 0.3s all;
+
+              &:hover {
+                background: #3b804d;
+                color: #fff;
+              }
             }
           }
         }
