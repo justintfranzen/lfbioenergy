@@ -9,9 +9,13 @@
       column-gap: 5em !important;
       row-gap: 5em !important;
 
+      @media (max-width: 980px) {
+        grid-template-columns: repeat(auto-fill, minmax(50%, 1fr)) !important;
+      }
+
       .dp-dfg-item {
         border-radius: 20px;
-        padding: 4em;
+        padding: 6em 4em 4em;
 
         .dp-dfg-header,
         .et_pb_button_wrapper {
@@ -22,6 +26,29 @@
           color: #3b804d;
           font-size: 54px;
           font-weight: 600;
+        }
+
+        .dp-dfg-content {
+          &.entry-summary {
+            color: #4d4d4d;
+            font-size: 22px;
+            font-weight: 200;
+            line-height: 1.3;
+          }
+        }
+
+        .dp-dfg-meta {
+          &.entry-meta {
+            position: absolute;
+            left: 2em;
+            top: 1.5em;
+
+            a {
+              color: #3b804d;
+              font-size: 24px;
+              font-weight: 900;
+            }
+          }
         }
 
         .et_pb_button_wrapper {
