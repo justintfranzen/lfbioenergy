@@ -84,12 +84,12 @@
   &.careers-cta {
     display: flex;
     align-items: center;
-    margin-bottom: -3em;
+    margin-bottom: -10em;
 
     &::before {
       content: '';
       background-image: url('/wp-content/themes/lfbioenergy-divi-child/assets/img/white-wave.png');
-      height: 60vh;
+      height: 70vh;
       background-size: 100% 100%;
       position: absolute;
       background-repeat: no-repeat;
@@ -113,6 +113,8 @@
 
       @media (max-width: 980px) {
         padding: 1em;
+        height: 45em;
+        overflow-y: scroll;
       }
 
       .et_pb_row {
@@ -130,7 +132,7 @@
             border-radius: 50%;
 
             @media (max-width: 980px) {
-              width: 20em;
+              width: 20em !important;
               max-width: 100%;
             }
           }
