@@ -78,6 +78,18 @@
         font-weight: 200;
         text-align: center;
 
+        &::after {
+          content: '';
+          border: 3px solid #99c45a;
+          transform: rotate(180deg);
+          width: 125px;
+          display: block;
+          margin: 0 auto;
+          top: 30px;
+          position: relative;
+          margin-bottom: 20px;
+        }
+
         @media (max-width: 980px) {
           font-size: 48px;
         }
