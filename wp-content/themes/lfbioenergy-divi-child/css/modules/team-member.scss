@@ -121,6 +121,10 @@
         overflow-y: scroll;
       }
 
+      @media (max-width: 50px) {
+        height: 40em;
+      }
+
       .et_pb_row {
         padding: 1em 3em;
         width: 100%;
@@ -129,6 +133,10 @@
 
         @media (max-width: 980px) {
           flex-direction: column;
+        }
+
+        @media (max-width: 500px) {
+          padding: 1em;
         }
 
         .et_pb_image {
