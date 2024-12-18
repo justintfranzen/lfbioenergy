@@ -18,6 +18,10 @@
             height: 60vh;
           }
 
+          @media (max-width: 500px) {
+            height: 75vh;
+          }
+
           .et_pb_blurb {
             background: #fff;
             border-radius: 20px;
