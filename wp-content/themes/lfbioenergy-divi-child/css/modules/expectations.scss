@@ -1,4 +1,18 @@
 .et_pb_section {
+  &.expectations {
+    .row-expectations {
+      @media (min-width: 981px) {
+        display: flex;
+      }
+
+      .et_pb_column {
+        @media (min-width: 981px) {
+          display: flex;
+        }
+      }
+    }
+  }
+
   &.green-wave {
     height: 85vh;
     background: linear-gradient(to bottom, #ededeb 50%, #f8f8f8 50%);
