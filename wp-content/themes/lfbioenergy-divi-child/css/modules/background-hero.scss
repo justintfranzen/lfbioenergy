@@ -49,6 +49,12 @@
       position: absolute;
       z-index: 1;
       bottom: -7.5em;
+
+      @media (max-width: 980px) {
+        height: 10%;
+        background-size: 100% 100%;
+        bottom: -2.5em;
+      }
     }
 
     .et_pb_row {
@@ -62,6 +68,7 @@
 
       @media (max-width: 500px) {
         padding: 2em 1em;
+        width: calc(90% - 1em);
       }
 
       .et_pb_bottom_inside_divider {
