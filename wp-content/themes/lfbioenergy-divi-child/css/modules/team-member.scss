@@ -104,6 +104,11 @@
       @media (max-width: 980px) {
         height: 55vh;
       }
+
+      @media (max-width: 500px) {
+        height: 80vh;
+        top: -7em;
+      }
     }
   }
 }
