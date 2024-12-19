@@ -48,6 +48,10 @@
           border-radius: 10px;
           height: 50vh;
 
+          @media (max-width: 500px) {
+            height: 58vh;
+          }
+
           .et_pb_image_wrap {
             display: flex;
             justify-content: end;
@@ -74,6 +78,10 @@
 
               @media (max-width: 980px) {
                 font-size: 38px;
+              }
+
+              @media (max-width: 500px) {
+                font-size: 34px;
               }
             }
 
