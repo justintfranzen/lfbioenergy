@@ -39,6 +39,10 @@
     height: 90vh;
     display: flex;
 
+    @media (max-width: 500px) {
+      height: 100vh;
+    }
+
     &::after {
       content: '';
       background-image: url('/wp-content/themes/lfbioenergy-divi-child/assets/img/home-hero-accent.png');

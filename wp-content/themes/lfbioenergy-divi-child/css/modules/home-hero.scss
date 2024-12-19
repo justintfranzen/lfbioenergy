@@ -1,7 +1,7 @@
 .et_pb_section {
   &.home-hero {
     h1 {
-      font-family: Poppins, sans-serif;
+      font-family: Poppins, helvetica, sans-serif;
       font-size: 78px;
       text-align: center;
       color: #e1e2da;
@@ -29,6 +29,22 @@
 
       @media (max-width: 500px) {
         font-size: 20px;
+      }
+    }
+  }
+
+  .et_pb_row {
+    &.row-reverse {
+      @media (max-width: 980px) {
+        display: flex;
+        flex-direction: column-reverse;
+        padding-bottom: 0;
+      }
+
+      img {
+        @media (max-width: 980px) {
+          margin-top: 2em;
+        }
       }
     }
   }
