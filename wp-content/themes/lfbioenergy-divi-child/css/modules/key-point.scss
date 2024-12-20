@@ -7,7 +7,7 @@
     z-index: 1;
 
     @media (max-width: 500px) {
-      padding-top: 7em;
+      padding-top: 5em;
     }
 
     &::before {
@@ -42,7 +42,7 @@
       }
 
       @media (max-width: 500px) {
-        height: 195vh;
+        height: 205vh;
       }
     }
 
