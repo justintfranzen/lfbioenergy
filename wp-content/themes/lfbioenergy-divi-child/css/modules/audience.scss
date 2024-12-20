@@ -3,6 +3,19 @@
     background-size: 100% 120%;
   }
 
+  &.impact {
+    .et_pb_blurb_description {
+      .audience-learn-more {
+        background: #3b804d;
+        color: #fff;
+        font-size: 14px;
+        padding: 1em 3em;
+        position: absolute;
+        bottom: 1em !important;
+      }
+    }
+  }
+
   &.audience {
     padding-top: 10em;
     padding-bottom: 10em;
@@ -23,7 +36,7 @@
             .et_pb_blurb {
               .et_pb_blurb_container {
                 position: relative;
-                top: 3.5em;
+                top: 2.8em;
 
                 @media (max-width: 980px) {
                   top: 0;
@@ -46,7 +59,7 @@
         .et_pb_blurb {
           background: rgb(255 255 255 / 45%);
           border-radius: 10px;
-          height: 50vh;
+          height: 55vh;
 
           @media (max-width: 500px) {
             height: 58vh;
@@ -65,7 +78,8 @@
           .et_pb_blurb_container {
             width: 75%;
             margin-left: 2em;
-            padding-bottom: 4.5em;
+            padding-bottom: 0;
+            height: 19em;
 
             .et_pb_module_header {
               font-size: 54px;
@@ -95,9 +109,8 @@
                 color: #fff;
                 font-size: 14px;
                 padding: 1em 3em;
-                margin-top: 1em;
                 position: absolute;
-                top: 90%;
+                bottom: -2em;
                 transition: 0.3s all;
 
                 &:hover {
