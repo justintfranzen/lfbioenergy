@@ -6,6 +6,29 @@
       &.team {
         display: flex;
 
+        &:last-child {
+          display: flex;
+          justify-content: center;
+
+          @media (max-width: 980px) {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            column-gap: 3em;
+          }
+
+          @media (max-width: 500px) {
+            display: block;
+          }
+
+          .et_pb_column {
+            width: 20.875%;
+
+            @media (max-width: 980px) {
+              width: auto;
+            }
+          }
+        }
+
         .et_pb_column {
           display: flex;
           height: 50vh;
