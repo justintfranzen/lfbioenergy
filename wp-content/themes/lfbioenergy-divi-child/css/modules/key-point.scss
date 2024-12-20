@@ -6,6 +6,10 @@
     padding-bottom: 6em;
     z-index: 1;
 
+    @media (max-width: 500px) {
+      padding-top: 7em;
+    }
+
     &::before {
       content: '';
       background-image: url('/wp-content/themes/lfbioenergy-divi-child/assets/img/grey-wave-green-accents.png');
@@ -38,7 +42,7 @@
       }
 
       @media (max-width: 500px) {
-        height: 190vh;
+        height: 195vh;
       }
     }
 
