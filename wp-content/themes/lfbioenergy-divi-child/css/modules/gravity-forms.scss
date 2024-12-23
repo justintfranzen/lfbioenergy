@@ -24,10 +24,20 @@
       }
     }
 
+    .gform_confirmation_message {
+      font-size: 22px !important;
+      text-align: center !important;
+    }
+
     &.contact {
       .et_pb_row {
         width: 1350px;
         max-width: 100%;
+
+        .gform_confirmation_message {
+          position: relative;
+          top: 3em;
+        }
       }
     }
   }

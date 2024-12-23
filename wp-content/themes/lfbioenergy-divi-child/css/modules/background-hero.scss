@@ -43,24 +43,6 @@
       height: 100vh;
     }
 
-    &::after {
-      content: '';
-      background-image: url('/wp-content/themes/lfbioenergy-divi-child/assets/img/home-hero-accent.png');
-      width: 100%;
-      height: 20%;
-      background-size: contain;
-      background-repeat: no-repeat;
-      position: absolute;
-      z-index: 1;
-      bottom: -7.5em;
-
-      @media (max-width: 980px) {
-        height: 10%;
-        background-size: 100% 100%;
-        bottom: -2.5em;
-      }
-    }
-
     .et_pb_row {
       background: rgb(59 128 77 / 85%);
       border-radius: 10px;
