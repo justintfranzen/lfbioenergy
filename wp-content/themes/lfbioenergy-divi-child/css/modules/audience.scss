@@ -57,7 +57,7 @@
         }
 
         @media (max-width: 600px) {
-          height: 55vh;
+          height: 65vh;
         }
 
         .et_pb_blurb {
@@ -67,10 +67,6 @@
 
           @media (max-width: 600px) {
             height: 65vh;
-          }
-
-          @media (max-width: 500px) {
-            height: 60vh;
           }
 
           .et_pb_image_wrap {
@@ -120,6 +116,10 @@
                 position: absolute;
                 bottom: -2em;
                 transition: 0.3s all;
+
+                @media (max-width: 600px) {
+                  bottom: -6em;
+                }
 
                 &:hover {
                   color: #3b804d;
