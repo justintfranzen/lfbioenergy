@@ -77,6 +77,10 @@
 
         h3 {
           font-size: 60px;
+
+          @media (max-width: 600px) {
+            font-size: 48px;
+          }
         }
 
         @media (max-width: 980px) {

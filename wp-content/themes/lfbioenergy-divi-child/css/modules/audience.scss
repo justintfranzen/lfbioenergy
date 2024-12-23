@@ -56,13 +56,21 @@
           justify-content: center;
         }
 
+        @media (max-width: 600px) {
+          height: 55vh;
+        }
+
         .et_pb_blurb {
           background: rgb(255 255 255 / 45%);
           border-radius: 10px;
           height: 55vh;
 
+          @media (max-width: 600px) {
+            height: 65vh;
+          }
+
           @media (max-width: 500px) {
-            height: 58vh;
+            height: 60vh;
           }
 
           .et_pb_image_wrap {
