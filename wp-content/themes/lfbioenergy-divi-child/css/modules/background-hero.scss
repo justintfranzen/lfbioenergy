@@ -128,6 +128,25 @@
       }
     }
   }
+
+  &.secondary-hero {
+    &::after {
+      content: '';
+      background-image: url('/wp-content/themes/lfbioenergy-divi-child/assets/img/home-hero-accent.png');
+      width: 100%;
+      height: 20%;
+      background-size: 101% 100%;
+      background-repeat: no-repeat;
+      position: absolute;
+      z-index: 10;
+      bottom: -6em;
+
+      @media (max-width: 980px) {
+        height: 10%;
+        bottom: -3em;
+      }
+    }
+  }
 }
 
 #main-footer {
