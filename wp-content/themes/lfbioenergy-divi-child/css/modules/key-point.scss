@@ -95,13 +95,17 @@
         height: 80vh;
       }
 
+      @media (max-width: 767px) {
+        height: 90vh;
+      }
+
       @media (max-width: 820px) {
         top: -7em;
         background-size: 150% 100%;
       }
 
-      @media (max-width: 500px) {
-        background-size: 150% 110%;
+      @media (max-width: 600px) {
+        background-size: 150% 115%;
       }
 
       @media (max-width: 390px) {
