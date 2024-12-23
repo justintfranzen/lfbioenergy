@@ -24,6 +24,16 @@
         height: 45vh;
       }
 
+      @media (max-width: 768px) {
+        margin-top: -8em;
+        height: 55vh;
+      }
+
+      @media (max-width: 600px) {
+        height: 75vh;
+        top: 2em;
+      }
+
       @media (max-width: 500px) {
         background-size: 150% 100%;
       }
