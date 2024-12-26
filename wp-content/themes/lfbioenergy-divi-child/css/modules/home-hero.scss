@@ -52,7 +52,7 @@
   &.text-image {
     &::before {
       content: '';
-      background-image: url('/wp-content/themes/lfbioenergy-divi-child/assets/img/home-hero-accent.png');
+      background-image: url('/wp-content/themes/lfbioenergy-divi-child/assets/svg/INTERDEPENDENCE-LF-BioEnergy_WebAssets-1920x155-Top.svg');
       width: 100%;
       height: 10%;
       background-size: 101% 100%;
@@ -63,11 +63,11 @@
 
       @media (max-width: 980px) {
         height: 5%;
-        top: -4em;
+        top: -3em;
       }
 
       @media (max-width: 500px) {
-        height: 3%;
+        height: 2%;
         top: -2em;
       }
     }
