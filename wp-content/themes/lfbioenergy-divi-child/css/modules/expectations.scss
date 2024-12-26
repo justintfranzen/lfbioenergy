@@ -14,9 +14,6 @@
   }
 
   &.green-wave {
-    height: 85vh;
-    background: linear-gradient(to bottom, #ededeb 50%, #f8f8f8 50%);
-
     @media (max-width: 980px) {
       background: #4d4d4d;
       height: 145vh;
