@@ -26,14 +26,10 @@
     .et_pb_row {
       display: flex;
 
-      &:last-child {
-        margin-top: 1em;
-
-        @media (max-width: 980px) {
-          margin-top: 0;
-          padding-top: 0;
-          flex-direction: column;
-        }
+      @media (max-width: 980px) {
+        margin-top: 0;
+        padding-top: 0;
+        flex-direction: column;
 
         .et_pb_column {
           &:first-child {
