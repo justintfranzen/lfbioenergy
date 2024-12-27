@@ -1,0 +1,5 @@
+### 1.0.1
+- Fixed three PHP 8.2 creation of dynamic property deprecation notices that occur on form submission.
+
+### 1.0 | 2021-07-07
+- All new!
