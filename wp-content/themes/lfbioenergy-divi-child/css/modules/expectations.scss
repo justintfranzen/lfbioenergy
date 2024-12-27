@@ -31,6 +31,10 @@
       height: 175vh;
     }
 
+    @media (max-width: 400px) {
+      height: 200vh;
+    }
+
     @media (max-width: 390px) {
       height: 205vh;
     }
