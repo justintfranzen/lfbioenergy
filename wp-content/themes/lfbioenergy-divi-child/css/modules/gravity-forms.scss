@@ -27,6 +27,10 @@
     .gform_confirmation_message {
       font-size: 22px !important;
       text-align: center !important;
+
+      @media (max-width: 500px) {
+        margin-bottom: 8em;
+      }
     }
 
     &.contact {
