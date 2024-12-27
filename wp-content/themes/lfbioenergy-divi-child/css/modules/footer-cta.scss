@@ -28,6 +28,10 @@
         background-size: 145% 100%;
       }
 
+      @media (max-width: 430px) {
+        height: 85vh;
+      }
+
       @media (max-width: 390px) {
         height: 108vh;
       }
