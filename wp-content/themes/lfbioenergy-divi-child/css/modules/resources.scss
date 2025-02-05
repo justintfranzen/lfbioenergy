@@ -129,3 +129,14 @@
     }
   }
 }
+
+.single-post {
+  .author.vcard {
+    display: none;
+  }
+
+  .published {
+    margin-left: -2em;
+    background: #fff;
+  }
+}
