@@ -34,3 +34,6 @@ require_once 'functions/global-settings/index.php';
 
 // Custom Divi Fonts
 require_once 'functions/divi-fonts/index.php';
+
+// Divi Filtergrid loader
+require_once 'functions/resources-load-more/index.php';
