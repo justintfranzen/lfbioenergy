@@ -3,8 +3,30 @@
     padding-bottom: 7em;
     margin-bottom: -5em;
 
-    .dp-dfg-filters.dp-dfg-filters-buttons-layout {
-      display: none;
+    .dp-dfg-filters {
+      &.dp-dfg-filters-buttons-layout {
+        margin-bottom: 4em;
+
+        .dp-dfg-level {
+          &.dp-dfg-taxonomy-level-0 {
+            &.dp-dfg-taxonomy-all {
+              @media (max-width: 500px) {
+                flex-direction: column;
+                text-align: center;
+              }
+
+              a {
+                font-family: Poppins, helvetica, sans-serif;
+                font-size: 18px;
+
+                &.active {
+                  color: #3b804d;
+                }
+              }
+            }
+          }
+        }
+      }
     }
 
     .dp-dfg-items {
